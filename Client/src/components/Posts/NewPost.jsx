@@ -33,7 +33,7 @@ export default function NewPost({ topicId }) {
                <div className="flex items-center px-5">Title</div>
                <input
                   type="text"
-                  placeholder="Tiêu đề bài viết"
+                  placeholder="Title Post"
                   className="flex-1 outline-none border-none px-3 py-3 bg-[#f8f5f5]"
                   defaultValue={title}
                   onChange={e => setTitle(e.target.value)}
