@@ -1,0 +1,3266 @@
+{
+    "success": true,
+    "error": false,
+    "data": {
+      "1": {
+        "id": 1,
+        "name": {
+          "id": 1,
+          "level": "V",
+          "name": "Acupuncturist (Alternative Medicine)",
+          "name_plural": "Acupuncturists",
+          "name_schemaorg": "CommunityHealth",
+          "name_ads": "Alternative",
+          "api_abreviature": "ACUPU",
+          "description": "An acupuncturist is a person who performs ancient therapy for alleviation of pain, anesthesia and treatment of some diseases. Acupuncturists use long, fine needles inserted into specific points in order to treat painful conditions or produce anesthesia.",
+          "friendly_url": "Acupuncturists",
+          "visits_number": 3850409,
+          "enabled": 0,
+          "friendly_url_redirected": "@Acupuncturist@"
+        },
+        "sub_specialty": {
+          "1": "General"
+        }
+      },
+      "2": {
+        "id": 2,
+        "name": {
+          "id": 2,
+          "level": "V",
+          "name": "Addiction Medicine Specialist",
+          "name_plural": "Addiction Medicine Specialists",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Mental",
+          "api_abreviature": "ADDIC",
+          "description": "A provider specialized in the treatment of addiction and substance abuse.",
+          "friendly_url": "Addiction-Medicine-Specialists",
+          "visits_number": 2073189,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "417": "General"
+        }
+      },
+      "3": {
+        "id": 3,
+        "name": {
+          "id": 3,
+          "level": "V",
+          "name": "Adolescent Medicine Specialist",
+          "name_plural": "Adolescent Medicine Specialists",
+          "name_schemaorg": "PrimaryCare",
+          "name_ads": "Child",
+          "api_abreviature": "ADOLE",
+          "description": "An internist who specializes in adolescent medicine is a multi-disciplinary healthcare specialist trained in the unique physical, psychological and social characteristics of adolescents, their healthcare problems and needs.",
+          "friendly_url": "Adolescent-Medicine-Specialists",
+          "visits_number": 1293252,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "418": "General"
+        }
+      },
+      "4": {
+        "id": 4,
+        "name": {
+          "id": 4,
+          "level": "V",
+          "name": "Allergist-Immunologist",
+          "name_plural": "Allergist-Immunologists",
+          "name_schemaorg": "RespiratoryTherapy",
+          "name_ads": "Allergy",
+          "api_abreviature": "ALLER",
+          "description": "An allergist-immunologist is trained in evaluation, physical and laboratory diagnosis, and management of disorders involving the immune system. Selected examples of such conditions include asthma, anaphylaxis, rhinitis, eczema, and adverse reactions to drugs, foods, and insect stings as well as immune deficiency diseases (both acquired and congenital), defects in host defense, and problems Related to autoimmune disease, organ transplantation, or malignancies of the immune system.",
+          "friendly_url": "Allergist-Immunologists",
+          "visits_number": 4094964,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "2": "General",
+          "3": "Allergy",
+          "4": "Clinical & Laboratory Immunology"
+        }
+      },
+      "5": {
+        "id": 5,
+        "name": {
+          "id": 5,
+          "level": "V",
+          "name": "Anaplastologist",
+          "name_plural": "Anaplastologists",
+          "name_schemaorg": "Musculoskeletal",
+          "name_ads": "Plastic",
+          "api_abreviature": "ANAPL",
+          "description": "An anaplastologist is a professional who creates prostheses for the face and body.  Patients treated include those missing anatomy due to cancer, traumatic injury, or birth differences.  Generally, there are no state licensing requirements for anaplastologists.  Certification specific to anaplastology is provided through the Board for Certified Clinical Anaplastology (BCCA) with a credential title of Certified Clinical Anaplastologist (CCA).",
+          "friendly_url": "Anaplastologists",
+          "visits_number": 1170814,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "449": "General"
+        }
+      },
+      "6": {
+        "id": 6,
+        "name": {
+          "id": 6,
+          "level": "V",
+          "name": "Anesthesiologist",
+          "name_plural": "Anesthesiologists",
+          "name_schemaorg": "Anesthesia",
+          "name_ads": "Pain",
+          "api_abreviature": "ANEST",
+          "description": "An anesthesiologist is trained to provide pain relief and maintenance, or restoration, of a stable condition during and immediately following an operation or an obstetric or diagnostic procedure. The anesthesiologist assesses the risk of the patient undergoing surgery and optimizes the patient's condition prior to, during and after surgery. In addition to these management responsibilities, the anesthesiologist provides medical management and consultation in pain management and critical care medicine. Anesthesiologists diagnose and treat acute, long-standing and cancer pain problems; diagnose and treat patients with critical illnesses or severe injuries; direct resuscitation in the care of patients with cardiac or respiratory emergencies, including the need for artificial ventilation; and supervise post-anesthesia recovery.",
+          "friendly_url": "Anesthesiologists",
+          "visits_number": 3681973,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "5": "General",
+          "6": "Addiction Medicine",
+          "7": "Critical Care Medicine",
+          "8": "Hospice & Palliative Medicine",
+          "9": "Pain Medicine",
+          "10": "Pediatric Anesthesiologist"
+        }
+      },
+      "7": {
+        "id": 7,
+        "name": {
+          "id": 7,
+          "level": "V",
+          "name": "Art Therapist",
+          "name_plural": "Art Therapists",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Mental",
+          "api_abreviature": "ART T",
+          "description": "Art Therapists use art to achieve the therapeutic goals of symptom relief, emotional integration, and recovery from or adjustment to illness or disability. \r\n\r\nAn art therapist uses a form of treatment that enables patients with mental or physical disabilities to use art as a way of expressing and dealing with feelings and inner conflicts. \r\n\r\nAn individual who uses arts modalities and creative processes during intentional intervention in therapeutic, rehabilitative, community, or educational settings to foster health, communication, and expression; promote the integration of physical, emotional, cognitive, and social functioning; enhance self-awareness; and facilitate change.",
+          "friendly_url": "Art-Therapists",
+          "visits_number": 1148076,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "370": "General"
+        }
+      },
+      "8": {
+        "id": 8,
+        "name": {
+          "id": 8,
+          "level": "V",
+          "name": "Audiologist",
+          "name_plural": "Audiologists",
+          "name_schemaorg": "SpeechPathology",
+          "name_ads": "Ear",
+          "api_abreviature": "AUDIO",
+          "description": "An Audiologist is a specialist in evaluation, habilitation and rehabilitation of those whose communication disorders center in whole or in part in hearing function. Audiologists are autonomous professionals who identify, assess, and manage disorders of the auditory, balance and other neural systems. Audiologists provide audiological (aural) rehabilitation to children and adults across the entire age span. Audiologists select, fit and dispense amplification systems such as hearing aids and related devices. \r\n\r\nAudiologists are qualified by a masterâ€™s degree in audiology, licensed by the state, where applicable, and practicing within the scope of that license. Audiologists evaluate and treat patients with impaired hearing. They plan, direct and conduct rehabilitative programs with audiotry substitutional devises (hearing aids) and other therapy.",
+          "friendly_url": "Audiologists",
+          "visits_number": 1565761,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "453": "General",
+          "454": "Assistive Technology Practitioner",
+          "455": "Assistive Technology Supplier",
+          "457": "Hearing Aid Fitter"
+        }
+      },
+      "10": {
+        "id": 10,
+        "name": {
+          "id": 10,
+          "level": "V",
+          "name": "Bariatrician (Weight Loss Specialist)",
+          "name_plural": "Bariatricians",
+          "name_schemaorg": "DietNutrition",
+          "name_ads": "Stomach",
+          "api_abreviature": "BARIA",
+          "description": "Bariatric medicine is the medical treatment of obesity and its associated conditions.  Bariatric medicine addresses the obese individual with a comprehensive program of diet, exercise and behavior modification, and when indicated, the prescription of appropriate medications as determined by the Bariatric physician.  Bariatric physicians are licensed physicians who offer specialized programs in the medical treatment of obesity and its associated conditions. ",
+          "friendly_url": "Bariatricians",
+          "visits_number": 1195465,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "419": "Bariatric Medicine (Bariatrician)"
+        }
+      },
+      "11": {
+        "id": 11,
+        "name": {
+          "id": 11,
+          "level": "V",
+          "name": "Cardiologist (Heart Specialist)",
+          "name_plural": "Cardiologists",
+          "name_schemaorg": "Cardiovascular",
+          "name_ads": "Heart",
+          "api_abreviature": "CARDI",
+          "description": "A specialist in the structure and function and disorders of the heart and treatments for heart disease.",
+          "friendly_url": "Cardiologists",
+          "visits_number": 4049141,
+          "enabled": 0,
+          "friendly_url_redirected": "@Cardiologist@"
+        },
+        "sub_specialty": {
+          "11": "General",
+          "764": "Clinical Cardiac Electrophysiology",
+          "1203": "Pediatric Cardiothoracic Surgery"
+        }
+      },
+      "12": {
+        "id": 12,
+        "name": {
+          "id": 12,
+          "level": "V",
+          "name": "Certified Nurse Midwife",
+          "name_plural": "Certified Nurse Midwives",
+          "name_schemaorg": "Midwifery",
+          "name_ads": "Pregnancy",
+          "api_abreviature": "CERNU",
+          "description": "A provider educated in the independent management of women's health and focusing particularly on pregnancy, childbirth, the post partum period, care of the newborn, family planning and gynecological needs of women and primary care of women. Certification requires education at the post secondary level in nursing and midwifery.",
+          "friendly_url": "Certified-Nurse-Midwives",
+          "visits_number": 1111058,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "113": "General"
+        }
+      },
+      "13": {
+        "id": 13,
+        "name": {
+          "id": 13,
+          "level": "V",
+          "name": "Certified Respiratory Therapist (CRT)",
+          "name_plural": "Certified Respiratory Therapists",
+          "name_schemaorg": "RespiratoryTherapy",
+          "name_ads": "Lung",
+          "api_abreviature": "CERTI",
+          "description": "A Certified Respiratory Therapist (CRT) is a an entry level therapist who has passed a standardized written examination administered by the National Board for Respiratory Care (NBRC).  CRTs provide diagnostic testing, therapeutics, monitoring, rehabilitation, and education to patients with disorders of the cardiopulmonary system.  They provide these respiratory care services in all health care facilities and in the home.  A CRT is a graduate of an associate degree program approved by the Commission on Accreditation of Allied Health Educational Programs (CAAHEP) and where applicable, is licensed by the state and is practicing within the scope of the license.",
+          "friendly_url": "Certified-Respiratory-Therapists",
+          "visits_number": 836935,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "384": "General",
+          "385": "Critical Care",
+          "386": "Emergency Care",
+          "387": "Educational",
+          "388": "Geriatric Care",
+          "389": "General Care",
+          "390": "Home Health",
+          "391": "Pulmonary Diagnostics",
+          "392": "Pulmonary Rehabilitation",
+          "393": "Pulmonary Function Technology",
+          "394": "Palliative/Hospice",
+          "395": "Neonatal/Pediatrics",
+          "396": "Patient Transport",
+          "397": "SNF/Subacute Care"
+        }
+      },
+      "14": {
+        "id": 14,
+        "name": {
+          "id": 14,
+          "level": "V",
+          "name": "Chiropractor",
+          "name_plural": "Chiropractors",
+          "name_schemaorg": "Musculoskeletal",
+          "name_ads": "Chiropractor",
+          "api_abreviature": "CHIRO",
+          "description": "A provider qualified by a Doctor of Chiropractic (D.C.), licensed by the State and who practices chiropractic medicine -that discipline within the healing arts which deals with the nervous system and its relationship to the spinal column and its interrelationship with other body systems.",
+          "friendly_url": "Chiropractors",
+          "visits_number": 6662947,
+          "enabled": 0,
+          "friendly_url_redirected": "@Pediatric_Chiropractor@@Thermography@"
+        },
+        "sub_specialty": {
+          "13": "General",
+          "14": "Independent Medical Examination",
+          "15": "Internist",
+          "16": "Neurology",
+          "17": "Nutrition",
+          "18": "Pediatric",
+          "19": "Radiology",
+          "20": "Rehabilitation",
+          "21": "Sports Medicine",
+          "22": "Thermography",
+          "23": "Occupational Medicine",
+          "24": "Orthopedic",
+          "1187": "Functional Medicine"
+        }
+      },
+      "15": {
+        "id": 15,
+        "name": {
+          "id": 15,
+          "level": "V",
+          "name": "Clinical / Laboratory Immunologist",
+          "name_plural": "Clinical / Laboratory Immunologists",
+          "name_schemaorg": "LaboratoryScience",
+          "name_ads": "Immune",
+          "api_abreviature": "CLLIM",
+          "description": "Providers who work within the branch of biomedical science concerned with the response of the organism to antigenic challenge.",
+          "friendly_url": "Clinical--Laboratory-Immunologists",
+          "visits_number": 946719,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "421": "General"
+        }
+      },
+      "16": {
+        "id": 16,
+        "name": {
+          "id": 16,
+          "level": "V",
+          "name": "Clinical Neuropsychologist",
+          "name_plural": "Clinical Neuropsychologists",
+          "name_schemaorg": "Neurologic",
+          "name_ads": "Mental",
+          "api_abreviature": "",
+          "description": "An individual with a doctorate degree, licensure in clinical psychology and specialized training or board certification in neuropsychology who practices or adheres to the principles of neuropsychology; a specialty within the field of psychology focusing primarily on neurobehavioral functioning.",
+          "friendly_url": "Clinical-Neuropsychologists",
+          "visits_number": 725887,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "302": "General"
+        }
+      },
+      "17": {
+        "id": 17,
+        "name": {
+          "id": 17,
+          "level": "V",
+          "name": "Clinical Nurse Specialist (CNS)",
+          "name_plural": "Clinical Nurse Specialists",
+          "name_schemaorg": "Nursing",
+          "name_ads": "Nurse",
+          "api_abreviature": "CLINI",
+          "description": "A registered nurse who, through a graduate degree program in nursing, or through a formal post-basic education program or continuing education courses and clinical experience, is expert in a specialty area of nursing practice within one or more of the components of direct patient/client care, consultation, education, research and administration.",
+          "friendly_url": "Clinical-Nurse-Specialists",
+          "visits_number": 1166162,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "79": "General",
+          "80": "Acute Care",
+          "81": "Adult Health",
+          "82": "Critical Care Medicine",
+          "83": "Community Health/Public Health",
+          "84": "Chronic Care",
+          "85": "Emergency",
+          "86": "Ethics",
+          "87": "Family Health",
+          "88": "Gerontology",
+          "89": "Home Health",
+          "90": "Holistic",
+          "91": "Informatics",
+          "92": "Long-Term Care",
+          "93": "Medical-Surgical",
+          "94": "Neonatal",
+          "95": "Neuroscience",
+          "96": "Pediatrics",
+          "97": "Psych/Mental Health, Child & Adolescent",
+          "98": "Psych/Mental Health",
+          "99": "Psych/Mental Health, Adult",
+          "100": "Psych/Mental Health, Child & Family",
+          "101": "Psych/Mental Health, Chronically Ill",
+          "102": "Psych/Mental Health, Community",
+          "103": "Psych/Mental Health, Geropsychiatric",
+          "104": "Perinatal",
+          "105": "Perioperative",
+          "106": "Rehabilitation",
+          "107": "School",
+          "108": "Transplantation",
+          "109": "Women's Health",
+          "110": "Occupational Health",
+          "111": "Oncology",
+          "112": "Oncology, Pediatrics"
+        }
+      },
+      "18": {
+        "id": 18,
+        "name": {
+          "id": 18,
+          "level": "V",
+          "name": "Clinical Pharmacologist",
+          "name_plural": "Clinical Pharmacologists",
+          "name_schemaorg": "PharmacySpecialty",
+          "name_ads": "Pharma",
+          "api_abreviature": "CLPHA",
+          "description": "A provider who  studies the effects of drugs on people.",
+          "friendly_url": "Clinical-Pharmacologists",
+          "visits_number": 984885,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "420": "General"
+        }
+      },
+      "19": {
+        "id": 19,
+        "name": {
+          "id": 19,
+          "level": "V",
+          "name": "Colon & Rectal Surgeon (Proctologist)",
+          "name_plural": "Colon & Rectal Surgeons",
+          "name_schemaorg": "Surgical",
+          "name_ads": "Stomach",
+          "api_abreviature": "SURCR",
+          "description": "A colon and rectal surgeon is trained to diagnose and treat various diseases of the intestinal tract, colon, rectum, anal canal and perianal area by medical and surgical means. This specialist also deals with other organs and tissues (such as the liver, urinary and female reproductive system) involved with primary intestinal disease.",
+          "friendly_url": "Colon--Rectal-Surgeons",
+          "visits_number": 2257537,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "348": "General"
+        }
+      },
+      "20": {
+        "id": 20,
+        "name": {
+          "id": 20,
+          "level": "V",
+          "name": "Counselor",
+          "name_plural": "Counselors",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Mental",
+          "api_abreviature": "COUNS",
+          "description": "A provider who is trained and educated in the performance of behavior health services through interpersonal communications and analysis. Training and education at the specialty level usually requires a masterâ€™s degree and clinical experience and supervision for licensure or certification.",
+          "friendly_url": "Counselors",
+          "visits_number": 1496038,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "29": "General",
+          "30": "Addiction & Substance Use Disorder",
+          "31": "Mental Health",
+          "32": "Pastoral",
+          "33": "Professional",
+          "34": "School"
+        }
+      },
+      "21": {
+        "id": 21,
+        "name": {
+          "id": 21,
+          "level": "V",
+          "name": "Critical Care Specialist",
+          "name_plural": "Critical Care Specialists",
+          "name_schemaorg": "Emergency",
+          "name_ads": "Critical",
+          "api_abreviature": "DOCTO",
+          "description": "A surgeon with expertise in the management of the critically ill and postoperative patient, particularly the trauma victim, who specializes in critical care medicine diagnoses, treats and supports patients with multiple organ dysfunction. This specialist may have administrative responsibilities for intensive care units and may also facilitate and coordinate patient care among the primary physician, the critical care staff and other specialists.",
+          "friendly_url": "Critical-Care-Specialists",
+          "visits_number": 1205199,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "422": "Doctor of Critical Care Medicine"
+        }
+      },
+      "22": {
+        "id": 22,
+        "name": {
+          "id": 22,
+          "level": "V",
+          "name": "Dance Therapist",
+          "name_plural": "Dance Therapists",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Mental",
+          "api_abreviature": "DANCE",
+          "description": "A dance therapist, sometimes called a movement therapist, focuses on rhythmic body movements as a medium of physical and psychological change. Dance therapy is practiced more often with mental health patients than with physically disabled patients. A masterâ€™s degree is required by the American Dance Therapy Association to award the credentials Dance Therapist Registered (DTR).",
+          "friendly_url": "Dance-Therapists",
+          "visits_number": 1036686,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "371": "General"
+        }
+      },
+      "23": {
+        "id": 23,
+        "name": {
+          "id": 23,
+          "level": "V",
+          "name": "Dentist",
+          "name_plural": "Dentists",
+          "name_schemaorg": "Dentistry",
+          "name_ads": "Dental",
+          "api_abreviature": "DENTI",
+          "description": "A dentist is a person qualified by a doctorate in dental surgery (D.D.S.) or dental medicine (D.M.D.), licensed by the state to practice dentistry, and practicing within the scope of that license.  There is no difference between the two degrees: dentists who have a DMD or DDS have the same education.  Universities have the prerogative to determine what degree is awarded.  Both degrees use the same curriculum requirements set by the American Dental Association's Commission on Dental Accreditation.  Generally, three or more years of undergraduate education plus four years of dental school is required to graduate and become a general dentist.  State licensing boards accept either degree as equivalent, and both degrees allow licensed individuals to practice the same scope of general dentistry.  Additional post-graduate training is required to become a dental specialist.",
+          "friendly_url": "Dentists",
+          "visits_number": 7682893,
+          "enabled": 0,
+          "friendly_url_redirected": "@Oral___Maxillofacial_Surgeon@@Pediatric_Dentist@@Orthodontist___Dentofacial_Orthopedist@@Periodontist@@Endodontist@@Prosthodontist@@Public_Health_Dentist@@Oral___Maxillofacial_Pathologist@@Oral___Maxillofacial_Radiologist@@General_Dentist@"
+        },
+        "sub_specialty": {
+          "36": "General",
+          "37": "Dental Public Health",
+          "38": "Endodontics (Endodontist)",
+          "39": "Primary Dental Care",
+          "40": "Oral and Maxillofacial Pathology",
+          "41": "Pediatric Dentist",
+          "42": "Periodontics (Periodontist)",
+          "43": "Prosthodontics (Prosthodontist)",
+          "44": "Oral & Maxillofacial Surgery",
+          "45": "Oral & Maxillofacial Radiology",
+          "46": "Orthodontics & Dentofacial Orthopedics (Orthodontist)",
+          "766": "Cosmetic Dentist",
+          "774": "Family and Cosmetic Dentist",
+          "775": "Periodontal and Implant Surgery Specialist",
+          "798": "Sleep Therapy",
+          "799": "Oral Appliance Therapy",
+          "808": "Dentist - Dentist Anesthesiologist"
+        }
+      },
+      "24": {
+        "id": 24,
+        "name": {
+          "id": 24,
+          "level": "V",
+          "name": "Denturist (Dentures Specialist)",
+          "name_plural": "Denturists",
+          "name_schemaorg": "Dentistry",
+          "name_ads": "Dental",
+          "api_abreviature": "DENTU",
+          "description": "A denturist is a provider who specializes in fabricating dentures.",
+          "friendly_url": "Denturists",
+          "visits_number": 907295,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "444": "General"
+        }
+      },
+      "25": {
+        "id": 25,
+        "name": {
+          "id": 25,
+          "level": "V",
+          "name": "Dermatologist (Skin Specialist)",
+          "name_plural": "Dermatologists",
+          "name_schemaorg": "Dermatology",
+          "name_ads": "Skin",
+          "api_abreviature": "DERMA",
+          "description": "A dermatologist is trained to diagnose and treat pediatric and adult patients with benign and malignant disorders of the skin, mouth, external genitalia, hair and nails, as well as a number of sexually transmitted diseases. The dermatologist has had additional training and experience in the diagnosis and treatment of skin cancers, melanomas, moles and other tumors of the skin, the management of contact dermatitis and other allergic and nonallergic skin disorders, and in the recognition of the skin manifestations of systemic (including internal malignancy) and infectious diseases. Dermatologists have special training in dermatopathology and in the surgical techniques used in dermatology. They also have expertise in the management of cosmetic disorders of the skin such as hair loss and scars and the skin changes associated with aging.",
+          "friendly_url": "Dermatologists",
+          "visits_number": 4681273,
+          "enabled": 0,
+          "friendly_url_redirected": "@Dermatologist@"
+        },
+        "sub_specialty": {
+          "47": "General",
+          "48": "MOHS-Micrographic Surgery",
+          "49": "Dermatopathology",
+          "50": "Clinical & Laboratory Dermatological Immunology",
+          "51": "Pediatric Dermatology",
+          "52": "Procedural Dermatologist",
+          "765": "Cosmetic Dermatology",
+          "771": "Hair Loss and Hair Restoration Expert"
+        }
+      },
+      "26": {
+        "id": 26,
+        "name": {
+          "id": 26,
+          "level": "V",
+          "name": "Developmental Therapist",
+          "name_plural": "Developmental Therapists",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Child",
+          "api_abreviature": "DEVEL",
+          "description": "A Developmental Therapist is a person qualified by completion of an approved program in Developmental Therapy and where applicable credentialed by the state and practicing within the scope of the credential, or credentialed by completion of education experiences as approved by the state and practicing within the scope of that credential or, where state credentialing does not exist, certified by the Board of the Developmental Therapy Association. A developmental therapist evaluates children's global development in order to identify areas of developmental delay whether arising from physiological, neurological, or environmental factors, or a combination of factors; and designs, implements, and modifies therapeutic interventions for the child and the family to promote the child's acquisition of skills in a variety of developmental areas, including cognitive processes and social interaction in order to maximize functional independence and developmental homeostasis, and improve the quality of life at home and in the community; and provides consultation for the parents and other professionals working with the family on global development.",
+          "friendly_url": "Developmental-Therapists",
+          "visits_number": 904307,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "372": "General"
+        }
+      },
+      "27": {
+        "id": 27,
+        "name": {
+          "id": 27,
+          "level": "V",
+          "name": "Dietary Manager",
+          "name_plural": "Dietary Managers",
+          "name_schemaorg": "DietNutrition",
+          "name_ads": "Stomach",
+          "api_abreviature": "",
+          "description": "A dietary manager is a trained food services professional who is charged with maintaining cost/profit objectives, purchasing foods and services for the department and supervising staff.. Dietary managers are trained to understand the basic nutritional needs of clients and work in partnership with dietitians, who offer specialized nutritional expertise. The CDM certified dietary manager designation is an advanced professional credential awarded to dietary managers who have completed specific course work, have passed the national credentialing exams (including a sanitation and safety exam) and have applied for certification.",
+          "friendly_url": "Dietary-Managers",
+          "visits_number": 624369,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "192": "General"
+        }
+      },
+      "29": {
+        "id": 29,
+        "name": {
+          "id": 29,
+          "level": "V",
+          "name": "Emergency Doctor",
+          "name_plural": "Emergency Doctors",
+          "name_schemaorg": "Emergency",
+          "name_ads": "Critical",
+          "api_abreviature": "EMERG",
+          "description": "An emergency physician focuses on the immediate decision making and action necessary to prevent death or any further disability both in the pre-hospital setting by directing emergency medical technicians and in the emergency department. The emergency physician provides immediate recognition, evaluation, care, stabilization and disposition of a generally diversified population of adult and pediatric patients in response to acute illness and injury.",
+          "friendly_url": "Emergency-Doctors",
+          "visits_number": 3096686,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "423": "General",
+          "424": "Emergency Medical Services (EMS)",
+          "425": "Undersea & Hyperbaric Medicine",
+          "426": "Hospice & Palliative Medicine",
+          "427": "Pediatric Emergency Medicine",
+          "428": "Sports Medicine",
+          "429": "Medical Toxicology"
+        }
+      },
+      "30": {
+        "id": 30,
+        "name": {
+          "id": 30,
+          "level": "V",
+          "name": "Endocrinologist (Diabetes & Hormones Specialist)",
+          "name_plural": "Endocrinologists",
+          "name_schemaorg": "Endocrine",
+          "name_ads": "Endocrine",
+          "api_abreviature": "ENDOC",
+          "description": "An internist who concentrates on disorders of the internal (endocrine) glands such as the thyroid and adrenal glands. This specialist also deals with disorders such as diabetes, metabolic and nutritional disorders, obesity, pituitary diseases and menstrual and sexual problems.",
+          "friendly_url": "Endocrinologists",
+          "visits_number": 3481818,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "53": "General"
+        }
+      },
+      "31": {
+        "id": 31,
+        "name": {
+          "id": 31,
+          "level": "V",
+          "name": "Family Doctor",
+          "name_plural": "Family Doctors",
+          "name_schemaorg": "PrimaryCare",
+          "name_ads": "General",
+          "api_abreviature": "FAMIL",
+          "description": "Family Medicine is the medical specialty which is concerned with the total health care of the individual and the family. It is the specialty in breadth which integrates the biological, clinical, and behavioral sciences. The scope of family medicine is not limited by age, sex, organ system, or disease entity.",
+          "friendly_url": "Family-Doctors",
+          "visits_number": 7307155,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "54": "General",
+          "55": "Adolescent Medicine",
+          "56": "Addiction Medicine",
+          "57": "Adult Medicine",
+          "58": "Bariatric Medicine",
+          "59": "Geriatric Medicine",
+          "60": "Hospice & Palliative Medicine",
+          "61": "Sports Medicine",
+          "789": "Medical Aesthetics",
+          "870": "Family Medicine - Sleep Medicine"
+        }
+      },
+      "32": {
+        "id": 32,
+        "name": {
+          "id": 32,
+          "level": "V",
+          "name": "Gastroenterologist (Stomach & Bowel Specialist)",
+          "name_plural": "Gastroenterologists",
+          "name_schemaorg": "Gastroenterologic",
+          "name_ads": "Stomach",
+          "api_abreviature": "GASTR",
+          "description": "An internist who specializes in diagnosis and treatment of diseases of the digestive organs including the stomach, bowels, liver and gallbladder. This specialist treats conditions such as abdominal pain, ulcers, diarrhea, cancer and jaundice and performs complex diagnostic and therapeutic procedures using endoscopes to visualize internal organs.",
+          "friendly_url": "Gastroenterologists",
+          "visits_number": 3789990,
+          "enabled": 0,
+          "friendly_url_redirected": "@Gastroenterologist@"
+        },
+        "sub_specialty": {
+          "63": "General"
+        }
+      },
+      "33": {
+        "id": 33,
+        "name": {
+          "id": 33,
+          "level": "V",
+          "name": "General Practice Doctor (General Practitioner)",
+          "name_plural": "General Practitioners",
+          "name_schemaorg": "PrimaryCare",
+          "name_ads": "General",
+          "api_abreviature": "GENER",
+          "description": "A general practitioner is a physician whose practice is not oriented to a specific medical specialty but instead covers an array of medical problems in patients of all ages and genders. Often called a \"Family's General Health\" doctor, general practitioners are commonly the primary care physician for individuals and families.",
+          "friendly_url": "General-Practitioners",
+          "visits_number": 3767546,
+          "enabled": 0,
+          "friendly_url_redirected": "@General_Practice_Doctor@"
+        },
+        "sub_specialty": {
+          "62": "General",
+          "770": "Aesthetic Medicine",
+          "772": "Hair Loss and Hair Restoration Expert",
+          "786": "Integrative Medicine"
+        }
+      },
+      "35": {
+        "id": 35,
+        "name": {
+          "id": 35,
+          "level": "V",
+          "name": "Geriatric Medicine Doctor",
+          "name_plural": "Geriatric Medicine Physicians",
+          "name_schemaorg": "Geriatric",
+          "name_ads": "Geriatric",
+          "api_abreviature": "GERIA",
+          "description": "An internist who has special knowledge of the aging process and special skills in the diagnostic, therapeutic, preventive and rehabilitative aspects of illness in the elderly. This specialist cares for geriatric patients in the patient's home, the office, long-term care settings such as nursing homes and the hospital.",
+          "friendly_url": "Geriatric-Medicine-Physicians",
+          "visits_number": 1434797,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "64": "General"
+        }
+      },
+      "37": {
+        "id": 37,
+        "name": {
+          "id": 37,
+          "level": "V",
+          "name": "Hearing Instrument Specialist",
+          "name_plural": "Hearing Instrument Specialists",
+          "name_schemaorg": "SpeechPathology",
+          "name_ads": "Ear",
+          "api_abreviature": "",
+          "description": "Individuals who test hearing for the selection, adaptation, fitting, adjusting, servicing, and sale of hearing aids. Hearing Instrument Specialist is a designation provided individuals who qualify by the National Hearing Aid Society",
+          "friendly_url": "Hearing-Instrument-Specialists",
+          "visits_number": 659782,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "458": "General"
+        }
+      },
+      "38": {
+        "id": 38,
+        "name": {
+          "id": 38,
+          "level": "V",
+          "name": "Hematology / Oncology Specialist",
+          "name_plural": "Hematology / Oncology Specialist",
+          "name_schemaorg": "Oncologic",
+          "name_ads": "Cancer",
+          "api_abreviature": "HEMAT",
+          "description": "An internist with additional training who specializes in diseases of the blood, spleen and lymph. This specialist treats conditions such as anemia, clotting disorders, sickle cell disease, hemophilia, leukemia and lymphoma.",
+          "friendly_url": "Hematology--Oncology-Specialist",
+          "visits_number": 4314270,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "65": "General",
+          "69": "Oncologist (Cancer)",
+          "459": "Hematologist (Blood)"
+        }
+      },
+      "39": {
+        "id": 39,
+        "name": {
+          "id": 39,
+          "level": "V",
+          "name": "Hepatologist (Liver, Gallbladder & Pancreas)",
+          "name_plural": "Hepatologists",
+          "name_schemaorg": "Gastroenterologic",
+          "name_ads": "Stomach",
+          "api_abreviature": "HEPAT",
+          "description": "The discipline of Hepatology encompasses the structure, function, and diseases of the liver and biliary tract. The American Board of Internal Medicine considers Hepatology part of the subspecialty of gastroenterology. Physicians who identify themselves as Hepatologists usually, but not always, have been trained in gastrointestinal programs.",
+          "friendly_url": "Hepatologists",
+          "visits_number": 1314891,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "66": "General"
+        }
+      },
+      "40": {
+        "id": 40,
+        "name": {
+          "id": 40,
+          "level": "V",
+          "name": "Homeopath (Alternative Medicine)",
+          "name_plural": "Homeopaths",
+          "name_schemaorg": "CommunityHealth",
+          "name_ads": "Alternative",
+          "api_abreviature": "HOMEO",
+          "description": "A provider who is educated and trained in a system of therapeutics in which diseases are treated by drugs which are capable of producing in healthy persons symptoms like those of the disease to be treated. Treatment requires administering a drug in minute doses.",
+          "friendly_url": "Homeopaths",
+          "visits_number": 3670519,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "67": "General"
+        }
+      },
+      "41": {
+        "id": 41,
+        "name": {
+          "id": 41,
+          "level": "V",
+          "name": "Hospice & Palliative Medicine Specialist",
+          "name_plural": "Hospice & Palliative Medicine Specialists",
+          "name_schemaorg": "Geriatric",
+          "name_ads": "Critical",
+          "api_abreviature": "HOPMS",
+          "description": "An internal medicine physician with special knowledge and skills to prevent and relieve the suffering experienced by patients with life-limiting illnesses. This specialist works with an interdisciplinary hospice or palliative care team to maximize quality of life while addressing physical, psychological, social and spiritual needs of both patient and family throughout the course of the disease, through the dying process, and beyond for the family.  This specialist has expertise in the assessment of patients with advanced disease; the relief of distressing symptoms; the coordination of interdisciplinary patient and family-centered care in diverse venues; the use of specialized care systems including hospice; the management of the imminently dying patient; and legal and ethical decision making in end-of-life care.",
+          "friendly_url": "Hospice--Palliative-Medicine-Specialists",
+          "visits_number": 1080404,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "430": "General"
+        }
+      },
+      "42": {
+        "id": 42,
+        "name": {
+          "id": 42,
+          "level": "V",
+          "name": "Hospice & Palliative Surgeon",
+          "name_plural": "Hospice & Palliative Surgeons",
+          "name_schemaorg": "Surgical",
+          "name_ads": "Critical",
+          "api_abreviature": "SURHP",
+          "description": "A surgeon with special knowledge and skills to prevent and relieve the suffering experienced by patients with life-limiting illnesses. This specialist works with an interdisciplinary hospice or palliative care team to maximize quality of life while addressing physical, psychological, social and spiritual needs of both patient and family throughout the course of the disease, through the dying process, and beyond for the family.  This specialist has expertise in the assessment of patients with advanced disease; the relief of distressing symptoms; the coordination of interdisciplinary patient and family-centered care in diverse venues; the use of specialized care systems including hospice; the management of the imminently dying patient; and legal and ethical decision making in end-of-life care.",
+          "friendly_url": "Hospice--Palliative-Surgeons",
+          "visits_number": 1020143,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "349": "General"
+        }
+      },
+      "43": {
+        "id": 43,
+        "name": {
+          "id": 43,
+          "level": "V",
+          "name": "Hospitalist",
+          "name_plural": "Hospitalists",
+          "name_schemaorg": "Emergency",
+          "name_ads": "General",
+          "api_abreviature": "HOSPI",
+          "description": "A Hospitalist oversees the admission of patients into a hospital's Emergency Department.",
+          "friendly_url": "Hospitalists",
+          "visits_number": 1460099,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "431": "General"
+        }
+      },
+      "44": {
+        "id": 44,
+        "name": {
+          "id": 44,
+          "level": "V",
+          "name": "Independent Medical Examiner",
+          "name_plural": "Independent Medical Examiners",
+          "name_schemaorg": "LaboratoryScience",
+          "name_ads": "General",
+          "api_abreviature": "INDEP",
+          "description": "A special evaluator not involved with the medical care of the individual examinee that impartially evaluates the care being provided by other practitioners to clarify clinical, disability, liability or other case issues.",
+          "friendly_url": "Independent-Medical-Examiners",
+          "visits_number": 3743153,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "432": "General"
+        }
+      },
+      "45": {
+        "id": 45,
+        "name": {
+          "id": 45,
+          "level": "V",
+          "name": "Infectious Disease Specialist",
+          "name_plural": "Infectious Disease Specialists",
+          "name_schemaorg": "Infectious",
+          "name_ads": "Immune",
+          "api_abreviature": "INFEC",
+          "description": "An internist who deals with infectious diseases of all types and in all organ systems. Conditions requiring selective use of antibiotics call for this special skill. This physician often diagnoses and treats AIDS patients and patients with fevers which have not been explained. Infectious disease specialists may also have expertise in preventive medicine and travel medicine.",
+          "friendly_url": "Infectious-Disease-Specialists",
+          "visits_number": 1559998,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "433": "General"
+        }
+      },
+      "46": {
+        "id": 46,
+        "name": {
+          "id": 46,
+          "level": "V",
+          "name": "Internist",
+          "name_plural": "Internists",
+          "name_schemaorg": "Pathology",
+          "name_ads": "General",
+          "api_abreviature": "INTER",
+          "description": "A physician who provides long-term, comprehensive care in the office and the hospital, managing both common and complex illness of adolescents, adults and the elderly. Internists are trained in the diagnosis and treatment of cancer, infections and diseases affecting the heart, blood, kidneys, joints and digestive, respiratory and vascular systems. They are also trained in the essentials of primary care internal medicine, which incorporates an understanding of disease prevention, wellness, substance abuse, mental health and effective treatment of common problems of the eyes, ears, skin, nervous system and reproductive organs.",
+          "friendly_url": "Internists",
+          "visits_number": 6357248,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "68": "General",
+          "769": "Aesthetic Medicine",
+          "802": "Sports Medicine",
+          "871": "Internal Medicine - Advanced Heart Failure and Transplant Cardiology",
+          "872": "Internal Medicine - Allergy & Immunology",
+          "873": "Internal Medicine - Hypertension Specialist",
+          "1196": "Internal Medicine - Adult Congenital Heart Disease"
+        }
+      },
+      "47": {
+        "id": 47,
+        "name": {
+          "id": 47,
+          "level": "V",
+          "name": "Interventional Cardiologist",
+          "name_plural": "Interventional Cardiologists",
+          "name_schemaorg": "Cardiovascular",
+          "name_ads": "Heart",
+          "api_abreviature": "INCAR",
+          "description": "An area of medicine within the subspecialty of cardiology, which uses specialized imaging and other diagnostic techniques to evaluate blood flow and pressure in the coronary arteries and chambers of the heart and uses technical procedures and medications to treat abnormalities that impair the function of the cardiovascular system.",
+          "friendly_url": "Interventional-Cardiologists",
+          "visits_number": 1256917,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "12": "General"
+        }
+      },
+      "48": {
+        "id": 48,
+        "name": {
+          "id": 48,
+          "level": "V",
+          "name": "Kinesiotherapist",
+          "name_plural": "Kinesiotherapists",
+          "name_schemaorg": "Physiotherapy",
+          "name_ads": "Ortho",
+          "api_abreviature": "KINES",
+          "description": "A provider trained and educated in the applied science of medically prescribed therapeutic exercise, education and adapted physical activities designed to improve the quality of line and health of adults and children by developing physical fitness, increasing mobility and independence, and improving psychosocial behavior. The kinesiotherapist seeks a coach-player relationship in which he/she helps the patient/client reach the goal of becoming an independent, self-sustaining person. Kinesiotherapists, as compared with physical therapists, put more emphasis on geriatric care, reconditioning and fitness, and psychiatric care. A large percentage of kinesiotherapists practice in Veterans Administration hospitals.",
+          "friendly_url": "Kinesiotherapists",
+          "visits_number": 1090193,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "373": "General"
+        }
+      },
+      "49": {
+        "id": 49,
+        "name": {
+          "id": 49,
+          "level": "V",
+          "name": "Legal Medicine Specialist",
+          "name_plural": "Legal Medicine Specialists",
+          "name_schemaorg": "CommunityHealth",
+          "name_ads": "General",
+          "api_abreviature": "LEGAL",
+          "description": "Legal Medicine is a special field of medicine that focuses on various aspects of medicine and law. Historically, the practice of legal medicine made contributions to medicine as a scientific instrument to solve criminal perplexities. Since World War II, the domain of legal medicine has broadened to include not only aspects of medical science to solve legal and criminal problems but aspects of law as it applies to medicine. Legal Medicine continues to grow as medicolegal issues like medical malpractice and liability, government regulation of health care, issues of tort reform, and moral and ethical complexities presented by technological advances become increasingly prominent. Many medical schools have implemented courses which supply medicolegal instruction for medical students, and many law schools now offer medicolegal courses. Also, dual degree programs in law and medicine have been created to assist physicians to bridge the gap between medicine and the law.",
+          "friendly_url": "Legal-Medicine-Specialists",
+          "visits_number": 1005091,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "434": "General"
+        }
+      },
+      "50": {
+        "id": 50,
+        "name": {
+          "id": 50,
+          "level": "V",
+          "name": "Licensed Physchiatric Technician (LPT)",
+          "name_plural": "Licensed Psychiatric Technicians",
+          "name_schemaorg": "Physiotherapy",
+          "name_ads": "Mental",
+          "api_abreviature": "LICPT",
+          "description": "An individual licensed by the state board as a Psychiatric Technician based upon completion of a prescribed course of theory and clinical practice, with two thirds of the clinical practice time focused on mental and developmental disorders.  The psychiatric technician practices under the direct supervision of a physician, psychologist, registered nurse or other professional to provide care to patients with mental disorders and developmental disabilities.",
+          "friendly_url": "Licensed-Psychiatric-Technicians",
+          "visits_number": 1000785,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "116": "General"
+        }
+      },
+      "51": {
+        "id": 51,
+        "name": {
+          "id": 51,
+          "level": "V",
+          "name": "Licensed Practical Nurse (LPN)",
+          "name_plural": "Licensed Practical Nurses",
+          "name_schemaorg": "Nursing",
+          "name_ads": "Nurse",
+          "api_abreviature": "LICPN",
+          "description": "An individual with post-high school vocational training and practical experience in the provision of nursing care at a level less than that required for certification as a Registered Nurse. Requirements for education, experience, licensure, and job responsibilities vary among the states.",
+          "friendly_url": "Licensed-Practical-Nurses",
+          "visits_number": 1183431,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "114": "General",
+          "797": "Aesthetics"
+        }
+      },
+      "52": {
+        "id": 52,
+        "name": {
+          "id": 52,
+          "level": "V",
+          "name": "Licensed Vocational Nurse (LVN)",
+          "name_plural": "Licensed Vocational Nurses",
+          "name_schemaorg": "Nursing",
+          "name_ads": "Nurse",
+          "api_abreviature": "LICVN",
+          "description": "An individual with post-high school vocational training and practical experience in the provision of nursing care at a level less than that required for certification as a Registered Nurse. [An alternate term for licensed practical nurse arising from difference in occupational titles between states and post-high school training programs and institutions.] Requirements for education, experience, licensure, and job responsibilities vary among the states.",
+          "friendly_url": "Licensed-Vocational-Nurses",
+          "visits_number": 952875,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "115": "General"
+        }
+      },
+      "53": {
+        "id": 53,
+        "name": {
+          "id": 53,
+          "level": "V",
+          "name": "Magnetic Resonance Imaging (MRI) Specialist",
+          "name_plural": "Magnetic Resonance Imaging (MRI) Specialists",
+          "name_schemaorg": "Radiography",
+          "name_ads": "Imaging",
+          "api_abreviature": "MAGNE",
+          "description": "A provider specialized in the use of Magnetic Resonance Imagines (MRI) technology.",
+          "friendly_url": "Magnetic-Resonance-Imaging-MRI-Specialists",
+          "visits_number": 941099,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "435": "General"
+        }
+      },
+      "54": {
+        "id": 54,
+        "name": {
+          "id": 54,
+          "level": "V",
+          "name": "Marriage & Family Therapist",
+          "name_plural": "Marriage & Family Therapists",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Mental",
+          "api_abreviature": "MARRI",
+          "description": "A marriage and family therapist is a person with a master's degree in marriage and family therapy, or a master's or doctoral degree in a Related mental health field with substantially equivalent coursework in marriage and family therapy, who receives supervised clinical experience, or a person who meets the state requirements to practice as a marriage and family therapist.  A marriage and family therapist treats mental and emotional disorders within the context of marriage and family systems.   A marriage and family therapist provides mental health and counseling services to individuals, couples, families, and groups.",
+          "friendly_url": "Marriage--Family-Therapists",
+          "visits_number": 1727695,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "412": "General"
+        }
+      },
+      "55": {
+        "id": 55,
+        "name": {
+          "id": 55,
+          "level": "V",
+          "name": "Massage Therapist",
+          "name_plural": "Massage Therapists",
+          "name_schemaorg": "Musculoskeletal",
+          "name_ads": "Ortho",
+          "api_abreviature": "MASSA",
+          "description": "An individual trained in the manipulation of tissues (as by rubbing, stroking, kneading, or tapping) with the hand or an instrument for remedial or hygienic purposes.",
+          "friendly_url": "Massage-Therapists",
+          "visits_number": 1416627,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "374": "Licensed Massage Therapist"
+        }
+      },
+      "56": {
+        "id": 56,
+        "name": {
+          "id": 56,
+          "level": "V",
+          "name": "Mechanotherapist",
+          "name_plural": "Mechanotherapists",
+          "name_schemaorg": "Physiotherapy",
+          "name_ads": "Ortho",
+          "api_abreviature": "MECHA",
+          "description": "A practitioner of mechanotherapy examines patients by verbal inquiry, examination of the musculoskeletal system by hand, and visual inspection and observation.  In the treatment of patients, mechanotherapists employ the techniques of advised or supervised exercise; electrical neuromuscular stimulation; massage or manipulation; or air, water, heat, cold, sound, or infrared ray therapy.",
+          "friendly_url": "Mechanotherapists",
+          "visits_number": 986684,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "445": "General"
+        }
+      },
+      "57": {
+        "id": 57,
+        "name": {
+          "id": 57,
+          "level": "V",
+          "name": "Medical Geneticist (Genetic & Hereditary Disease Specialist) ",
+          "name_plural": "Medical Geneticists",
+          "name_schemaorg": "Genetic",
+          "name_ads": "Genetic",
+          "api_abreviature": "",
+          "description": "A clinical cytogeneticist demonstrates competence in providing laboratory diagnostic and clinical interpretive services dealing with cellular components, particularly chromosomes, associated with heredity.",
+          "friendly_url": "Medical-Geneticists",
+          "visits_number": 2706706,
+          "enabled": 0,
+          "friendly_url_redirected": "@Genetic_Counselors@@Genetic_Counselors_MS@"
+        },
+        "sub_specialty": {
+          "70": "Clinical Cytogenetics",
+          "72": "Clinical Biochemical Genetics",
+          "73": "Clinical Molecular Genetics"
+        }
+      },
+      "58": {
+        "id": 58,
+        "name": {
+          "id": 58,
+          "level": "V",
+          "name": "Medical Geneticist",
+          "name_plural": "Medical Geneticist",
+          "name_schemaorg": "Genetic",
+          "name_ads": "Medical Geneticist",
+          "api_abreviature": "MEDIC",
+          "description": "A medical geneticist works in association with a medical specialist, is affiliated with a clinical genetics program, and serves as a consultant to medical and dental specialists. ",
+          "friendly_url": "Medical-Geneticist",
+          "visits_number": 684875,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "71": "Clinical Genetics",
+          "74": "Medical Genetics",
+          "75": "Molecular Genetic Pathology",
+          "446": "Medical Genetics, Ph.D. Medical Genetics",
+          "447": "Genetic Counselor, MS"
+        }
+      },
+      "59": {
+        "id": 59,
+        "name": {
+          "id": 59,
+          "level": "V",
+          "name": "Music Therapist",
+          "name_plural": "Music Therapists",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Mental",
+          "api_abreviature": "MUSIC",
+          "description": "The music therapist works with patients with a broad variety of diagnoses and therapeutic goals. The interventions may involve musical performance with instruments, voice or body movements; listening to music; or attending musical events.",
+          "friendly_url": "Music-Therapists",
+          "visits_number": 1072608,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "375": "General"
+        }
+      },
+      "60": {
+        "id": 60,
+        "name": {
+          "id": 60,
+          "level": "V",
+          "name": "Naprapath (Alternative Medicine)",
+          "name_plural": "Naprapaths",
+          "name_schemaorg": "CommunityHealth",
+          "name_ads": "Alternative",
+          "api_abreviature": "NAPRA",
+          "description": null,
+          "friendly_url": "Naprapaths",
+          "visits_number": 975597,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "76": "General"
+        }
+      },
+      "61": {
+        "id": 61,
+        "name": {
+          "id": 61,
+          "level": "V",
+          "name": "Naturopath",
+          "name_plural": "Naturopaths",
+          "name_schemaorg": "CommunityHealth",
+          "name_ads": "Alternative",
+          "api_abreviature": "NATUR",
+          "description": "Diagnoses, treats, and cares for patients, using system of practice that bases treatment of physiological functions and abnormal conditions on natural laws governing human body: Utilizes physiological, psychological, and mechanical methods, such as air, water, light, heat, earth, phototherapy, food and herb therapy, psychotherapy, electrotherapy, physiotherapy, minor and orificial surgery, mechanotherapy, naturopathic corrections and manipulation, and natural methods or modalities, together with natural medicines, natural processed foods, and herbs and nature's remedies. Excludes major surgery, therapeutic use of x ray and radium, and use of drugs, except those assimilable substances containing elements or compounds which are components of body tissues and are physiologically compatible to body processes for maintenance of life.",
+          "friendly_url": "Naturopaths",
+          "visits_number": 1194013,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "77": "General"
+        }
+      },
+      "62": {
+        "id": 62,
+        "name": {
+          "id": 62,
+          "level": "V",
+          "name": "Nephrologist (Kidney Specialist)",
+          "name_plural": "Nephrologists",
+          "name_schemaorg": "Urologic",
+          "name_ads": "Kidney",
+          "api_abreviature": "NEPHR",
+          "description": "An internist who treats disorders of the kidney, high blood pressure, fluid and mineral balance and dialysis of body wastes when the kidneys do not function. This specialist consults with surgeons about kidney transplantation.",
+          "friendly_url": "Nephrologists",
+          "visits_number": 1363004,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "78": "General"
+        }
+      },
+      "63": {
+        "id": 63,
+        "name": {
+          "id": 63,
+          "level": "V",
+          "name": "Neurological Surgeon",
+          "name_plural": "Neurological Surgeons",
+          "name_schemaorg": "Neurologic",
+          "name_ads": "Neuro",
+          "api_abreviature": "NEUSU",
+          "description": "A neurological surgeon provides the operative and non-operative management (i.e., prevention, diagnosis, evaluation, treatment, critical care, and rehabilitation) of disorders of the central, peripheral, and autonomic nervous systems, including their supporting structures and vascular supply; the evaluation and treatment of pathological processes which modify function or activity of the nervous system; and the operative and non-operative management of pain. A neurological surgeon treats patients with disorders of the nervous system; disorders of the brain, meninges, skull, and their blood supply, including the extracranial carotid and vertebral arteries; disorders of the pituitary gland; disorders of the spinal cord, meninges, and vertebral column, including those which may require treatment by spinal fusion or instrumentation; and disorders of the cranial and spinal nerves throughout their distribution.",
+          "friendly_url": "Neurological-Surgeons",
+          "visits_number": 2559313,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "350": "General"
+        }
+      },
+      "64": {
+        "id": 64,
+        "name": {
+          "id": 64,
+          "level": "V",
+          "name": "Neuromusculoskeletal Medicine Specialist",
+          "name_plural": "Neuromusculoskeletal Physicians",
+          "name_schemaorg": "Musculoskeletal",
+          "name_ads": "Neuro",
+          "api_abreviature": "NEUPH",
+          "description": "A physician specialized in Neuromusculoskeletal medicine deals with the body as a whole addressing imbalances between the nervous system, blood vessels, musculature and skeletal framework of the body causes diseases and disorders.",
+          "friendly_url": "Neuromusculoskeletal-Physicians",
+          "visits_number": 976486,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "436": "Osteopathic Manual Manipulation",
+          "610": "Sports Medicine"
+        }
+      },
+      "65": {
+        "id": 65,
+        "name": {
+          "id": 65,
+          "level": "V",
+          "name": "Nuclear Medicine Specialist",
+          "name_plural": "Nuclear Medicine Physicians",
+          "name_schemaorg": "Radiography",
+          "name_ads": "Cancer",
+          "api_abreviature": "NUCLE",
+          "description": "A nuclear medicine specialist employs the properties of radioactive atoms and molecules in the diagnosis and treatment of disease and in research. Radiation detection and imaging instrument systems are used to detect disease as it changes the function and metabolism of normal cells, tissues and organs. A wide variety of diseases can be found in this way, usually before the structure of the organ involved by the disease can be seen to be abnormal by any other techniques. Early detection of coronary artery disease (including acute heart attack), early cancer detection and evaluation of the effect of tumor treatment, diagnosis of infection and inflammation anywhere in the body and early detection of blood clot in the lungs are all possible with these techniques. Unique forms of radioactive molecules can attack and kill cancer cells (e.g., lymphoma, thyroid cancer) or can relieve the severe pain of cancer that has spread to bone",
+          "friendly_url": "Nuclear-Medicine-Physicians",
+          "visits_number": 981976,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "437": "General",
+          "438": "Nuclear Cardiology",
+          "439": "Nuclear Imaging & Therapy",
+          "440": "In Vivo & In Vitro Nuclear Medicine"
+        }
+      },
+      "66": {
+        "id": 66,
+        "name": {
+          "id": 66,
+          "level": "V",
+          "name": "Nurse Anesthetist",
+          "name_plural": "Nurse Anesthetists",
+          "name_schemaorg": "Nursing",
+          "name_ads": "Nurse",
+          "api_abreviature": "CERNA",
+          "description": "A Nurse Anesthetist is a licensed registered nurse with advanced specialty education in anesthesia who, in collaboration with appropriate health care professionals, provides preoperative, intraoperative, and postoperative care to patients and assists in management and resuscitation of critical patients in intensive care, coronary care, and emergency situations. Nurse anesthetists are certified following successful completion of credentials and state licensure review and a national examination directed by the Council on Certification of Nurse Anesthetists. \r\n\r\nNurse Anesthetists are registered nurses who are qualified by special training to administer anesthesia in collaboration with a physician or dentist and who can assist in the care of patients who are in critical condition.",
+          "friendly_url": "Nurse-Anesthetists",
+          "visits_number": 1500820,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "173": "General"
+        }
+      },
+      "67": {
+        "id": 67,
+        "name": {
+          "id": 67,
+          "level": "V",
+          "name": "Nurse Practitioner (NP)",
+          "name_plural": "Nurse Practitioners",
+          "name_schemaorg": "Nursing",
+          "name_ads": "Nurse",
+          "api_abreviature": "NURSE",
+          "description": "A Nurse Practitioners (NP) is a registered nurse provider with a graduate degree in nursing prepared for advanced practice involving independent and interdependent decision making and direct accountability for clinical judgment across the health care continuum or in a certified specialty. \r\n\r\nNurse Practitioners have completed additional training beyond basic nursing education and who provides primary health care services in accordance with state nurse practice laws or statutes. Tasks performed by nurse practitioners vary with practice requirements mandated by geographic, political, economic, and social factors. Nurse practitioner specialists include, but are not limited to, family nurse practitioners, gerontological nurse practitioners, pediatric nurse practitioners, obstetric-gynecologic nurse practitioners, and school nurse practitioners.",
+          "friendly_url": "Nurse-Practitioners",
+          "visits_number": 1826513,
+          "enabled": 0,
+          "friendly_url_redirected": "@Nurse_Practitioner@"
+        },
+        "sub_specialty": {
+          "174": "General",
+          "175": "Acute Care",
+          "176": "Adult Health",
+          "177": "Critical Care Medicine",
+          "178": "Community Health",
+          "179": "Family",
+          "180": "Gerontology",
+          "181": "Neonatal",
+          "182": "Neonatal, Critical Care",
+          "183": "Pediatrics",
+          "184": "Pediatrics, Critical Care",
+          "185": "Psych/Mental Health",
+          "186": "Perinatal",
+          "187": "Primary Care",
+          "188": "School",
+          "189": "Women's Health",
+          "190": "Obstetrics & Gynecology",
+          "191": "Occupational Health",
+          "790": "Dermatology"
+        }
+      },
+      "68": {
+        "id": 68,
+        "name": {
+          "id": 68,
+          "level": "V",
+          "name": "Nutritionist",
+          "name_plural": "Nutritionists",
+          "name_schemaorg": "DietNutrition",
+          "name_ads": "Stomach",
+          "api_abreviature": "NUTRI",
+          "description": "A specialist in adapting and applying food and nutrient knowledge to the solution of food and nutritional problems, the control of disease, and the promotion of health. Nutritionists perform research, instruct groups and individuals about nutritional requirements, and assist people in developing meal patterns that meet their nutritional needs; (2) A nutritionist is someone who has completed undergraduate and/or graduate training in the discipline of nutrition without necessarily meeting the academic and experience requirements to qualify for the Registered Dietitian designation.",
+          "friendly_url": "Nutritionists",
+          "visits_number": 2451665,
+          "enabled": 0,
+          "friendly_url_redirected": "@Nutrition_Support@"
+        },
+        "sub_specialty": {
+          "193": "General",
+          "814": "Nutritionist - Nutrition, Education",
+          "815": "Dietetic Technician, Registered"
+        }
+      },
+      "69": {
+        "id": 69,
+        "name": {
+          "id": 69,
+          "level": "V",
+          "name": "Obstetrician / Gynecologist (OBGYN)",
+          "name_plural": "Obstetricians / Gynecologists (OBGYNs)",
+          "name_schemaorg": "Obstetric",
+          "name_ads": "OBGYN",
+          "api_abreviature": "OBSTE",
+          "description": "An obstetrician/gynecologist possesses special knowledge, skills and professional capability in the medical and surgical care of the female reproductive system and associated disorders. This physician serves as a consultant to other physicians and as a primary physician for women.",
+          "friendly_url": "Obstetricians--Gynecologists-OBGYNs",
+          "visits_number": 4829380,
+          "enabled": 0,
+          "friendly_url_redirected": "@Obstetrician___Gynecologist@"
+        },
+        "sub_specialty": {
+          "198": "General",
+          "199": "Bariatric Medicine",
+          "200": "Critical Care Medicine",
+          "201": "Reproductive Endocrinology",
+          "202": "Gynecology",
+          "203": "Hospice & Palliative Medicine",
+          "204": "Maternal & Fetal Medicine",
+          "205": "Obstetrics",
+          "206": "Gynecologic Oncology",
+          "787": "Fertility and Cosmetic Surgery",
+          "874": "Obstetrics & Gynecology - Female Pelvic Medicine and Reconstructive Surgery",
+          "1184": "Reproductive Endocrinology and Fertility",
+          "1189": "Urogynecology",
+          "1204": "Obstetrics & Gynecology - Complex Family Planning"
+        }
+      },
+      "70": {
+        "id": 70,
+        "name": {
+          "id": 70,
+          "level": "V",
+          "name": "Occupational Therapist (OT)",
+          "name_plural": "Occupational Therapists (OTs)",
+          "name_schemaorg": "OccupationalTherapy",
+          "name_ads": "Ortho",
+          "api_abreviature": "OCCUP",
+          "description": "An occupational therapist is a person qualified by completion of an approved program in occupational therapy, licensed by the state and practicing within the scope of that license, or where licensure does not exist, certified by the American Occupational Therapy Certification Board. An occupational therapist evaluates the self-care, work and leisure performance skills of well and disabled clients and plans and implements programs to restore, develop or maintain the task performance skills necessary for daily living and for the clientâ€™s particular occupational role.",
+          "friendly_url": "Occupational-Therapists-OTs",
+          "visits_number": 1388012,
+          "enabled": 0,
+          "friendly_url_redirected": "@Occupational_Therapist@@Occupational_Medicine@"
+        },
+        "sub_specialty": {
+          "376": "General",
+          "377": "Ergonomics",
+          "378": "Hand Specialist",
+          "379": "Human Factors",
+          "380": "Neurorehabilitation",
+          "381": "Pediatrics",
+          "382": "Driving and Community Mobility",
+          "460": "Environmental Modification",
+          "461": "Feeding, Eating & Swallowing",
+          "462": "Gerontology",
+          "463": "Low Vision",
+          "464": "Mental Health",
+          "465": "Physical Rehabilitation",
+          "898": "Occupational Therapy Assistant",
+          "899": "Occupational Therapy Assistant - Environmental Modification",
+          "900": "Occupational Therapy Assistant - Feeding, Eating & Swallowing",
+          "901": "Occupational Therapy Assistant - Low Vision",
+          "902": "Occupational Therapy Assistant - Driving and Community Mobility"
+        }
+      },
+      "71": {
+        "id": 71,
+        "name": {
+          "id": 71,
+          "level": "V",
+          "name": "Ophthalmologist (Eye Doctor)",
+          "name_plural": "Ophthalmologists",
+          "name_schemaorg": "Optometric",
+          "name_ads": "Eye",
+          "api_abreviature": "OPHTH",
+          "description": "An ophthalmologist has the knowledge and professional skills needed to provide comprehensive eye and vision care. Ophthalmologists are medically trained to diagnose, monitor and medically or surgically treat all ocular and visual disorders. This includes problems affecting the eye and its component structures, the eyelids, the orbit and the visual pathways. In so doing, an ophthalmologist prescribes vision services, including glasses and contact lenses.",
+          "friendly_url": "Ophthalmologists",
+          "visits_number": 4425089,
+          "enabled": 0,
+          "friendly_url_redirected": "@Ophthalmologist@"
+        },
+        "sub_specialty": {
+          "207": "General",
+          "875": "Ophthalmology - Glaucoma Specialist",
+          "876": "Ophthalmology - Retina Specialist",
+          "877": "Ophthalmology - Uveitis and Ocular Inflammatory Disease",
+          "878": "Ophthalmology - Neuro-ophthalmology",
+          "879": "Ophthalmology - Pediatric Ophthalmology and Strabismus Specialist",
+          "880": "Ophthalmology - Cornea and External Diseases Specialist",
+          "881": "Ophthalmology - Ophthalmic Plastic and Reconstructive Surgery"
+        }
+      },
+      "72": {
+        "id": 72,
+        "name": {
+          "id": 72,
+          "level": "V",
+          "name": "Optometrist (Eye & Vision Specialist)",
+          "name_plural": "Optometrists",
+          "name_schemaorg": "Optometric",
+          "name_ads": "Eye",
+          "api_abreviature": "OPTOM",
+          "description": "Doctors of optometry (ODs) are the primary health care professionals for the eye.  Optometrists examine, diagnose, treat, and manage diseases, injuries, and disorders of the visual system, the eye, and associated structures as well as identify Related systemic conditions affecting the eye.  An optometrist has completed pre-professional undergraduate education in a college or university and four years of professional education at a college of optometry, leading to the doctor of optometry (O.D.) degree.  Some optometrists complete an optional residency in a specific area of practice.  Optometrists are eye health care professionals state-licensed to diagnose and treat diseases and disorders of the eye and visual system. ",
+          "friendly_url": "Optometrists",
+          "visits_number": 2787222,
+          "enabled": 0,
+          "friendly_url_redirected": "@Optometrist@"
+        },
+        "sub_specialty": {
+          "208": "General",
+          "209": "Corneal and Contact Management",
+          "210": "Low Vision Rehabilitation",
+          "211": "Pediatrics",
+          "212": "Sports Vision",
+          "213": "Vision Therapy",
+          "214": "Occupational Vision"
+        }
+      },
+      "74": {
+        "id": 74,
+        "name": {
+          "id": 74,
+          "level": "V",
+          "name": "Orthopedic Surgeon",
+          "name_plural": "Orthopedic Surgeons",
+          "name_schemaorg": "Surgical",
+          "name_ads": "Ortho",
+          "api_abreviature": "ORTOS",
+          "description": "An orthopaedic surgeon is trained in the preservation, investigation and restoration of the form and function of the extremities, spine and associated structures by medical, surgical and physical means.  An orthopaedic surgeon is involved with the care of patients whose musculoskeletal problems include congenital deformities, trauma, infections, tumors, metabolic disturbances of the musculoskeletal system, deformities, injuries and degenerative diseases of the spine, hands, feet, knee, hip, shoulder and elbow in children and adults. An orthopaedic surgeon is also concerned with primary and secondary muscular problems and the effects of central or peripheral nervous system lesions of the musculoskeletal system.",
+          "friendly_url": "Orthopedic-Surgeons",
+          "visits_number": 3793102,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "352": "General",
+          "354": "Hand Surgery",
+          "356": "Surgery of the Spine",
+          "357": "Foot & Ankle Surgery",
+          "358": "Sports Medicine",
+          "580": "Adult Reconstructive Orthopaedic Surgery",
+          "584": "Pediatric Orthopaedic Surgery",
+          "655": "Orthopaedic Trauma",
+          "803": "Joint Replacement"
+        }
+      },
+      "75": {
+        "id": 75,
+        "name": {
+          "id": 75,
+          "level": "V",
+          "name": "Orthotics/Prosthetics Fitter",
+          "name_plural": "Orthotics/Prosthetics Fitters",
+          "name_schemaorg": "Physiotherapy",
+          "name_ads": "Ortho",
+          "api_abreviature": "ORTPF",
+          "description": "An Orthotics/Prosthetics Fitter is an individual who, under the guidance of and in consultation with the orthotist/prosthetist, fabricates orthotics/prosthetics in such a manner as to provide maximum fit, function, cosmesis and workmanship. \r\n\r\nAn Orthotics/Prosthetics Fitter, under the direction of a orthotist/prothetist, follows prescriptions and specifications to determine a device, such as a brace, to be made and the materials and tools needed to make the device. A technician then develops the devices.",
+          "friendly_url": "OrthoticsProsthetics-Fitters",
+          "visits_number": 1153536,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "450": "General"
+        }
+      },
+      "76": {
+        "id": 76,
+        "name": {
+          "id": 76,
+          "level": "V",
+          "name": "Orthotist",
+          "name_plural": "Orthotists",
+          "name_schemaorg": "Physiotherapy",
+          "name_ads": "Ortho",
+          "api_abreviature": "ORTHO",
+          "description": "An individual skilled in the practice, making, use and application to individual cases of an orthopedic appliance or apparatus used to support, align, prevent or correct deformities or to improve the function of movable parts of the body.",
+          "friendly_url": "Orthotists",
+          "visits_number": 1052208,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "451": "General"
+        }
+      },
+      "77": {
+        "id": 77,
+        "name": {
+          "id": 77,
+          "level": "V",
+          "name": "Otolaryngologist (Ear, Nose & Throat - ENT)",
+          "name_plural": "Otolaryngologists (ENTs)",
+          "name_schemaorg": "Otolaryngologic",
+          "name_ads": "ENT",
+          "api_abreviature": "OTOLA",
+          "description": "An otolaryngologist-head and neck surgeon provides comprehensive medical and surgical care for patients with diseases and disorders that affect the ears, nose, throat, the respiratory and upper alimentary systems and Related structures of the head and neck. An otolaryngologist diagnoses and provides medical and/or surgical therapy or prevention of diseases, allergies, neoplasms, deformities, disorders and/or injuries of the ears, nose, sinuses, throat, respiratory and upper alimentary systems, face, jaws and the other head and neck systems. Head and neck oncology, facial plastic and reconstructive surgery and the treatment of disorders of hearing and voice are fundamental areas of expertise.",
+          "friendly_url": "Otolaryngologists-ENTs",
+          "visits_number": 3423868,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "215": "General",
+          "216": "Pediatric Otolaryngology",
+          "217": "Sleep Medicine",
+          "218": "Facial Plastic Surgery",
+          "219": "Head & Neck Oncology Surgery",
+          "220": "Otolaryngic Allergy",
+          "221": "Otology & Neurotology",
+          "222": "Facial Plastic & Reconstructive Surgery",
+          "779": "Sinus",
+          "780": "Sleep & Snoring",
+          "781": "Thyroid/Parathyroid",
+          "782": "Sinus & Skull Base Surgery",
+          "783": "Skull Base Surgery",
+          "784": "Sinus Surgery",
+          "785": "Microvascular Reconstruction"
+        }
+      },
+      "78": {
+        "id": 78,
+        "name": {
+          "id": 78,
+          "level": "V",
+          "name": "Pain Medicine Specialist",
+          "name_plural": "Pain Medicine Specialists",
+          "name_schemaorg": "Anesthesia",
+          "name_ads": "Pain",
+          "api_abreviature": "PAIN",
+          "description": "Pain Medicine is a primary medical specialty based on a distinct body of knowledge and a well-defined scope of clinical practice that is founded on science, research and education.  It is concerned with the study of pain, the prevention of pain, and the evaluation, treatment, and rehabilitation of persons in pain. \r\n\r\nA comprehensive evaluation incorporates the physical, psychological, cognitive and socio-cultural contributions to pain.  The treatment protocol may include pharmacological, invasive, behavioral, cognitive, rehabilitative and complementary strategies provided in a concurrent focused and patient specific manner. \r\n\r\nThe pain medicine physician often serves the patient as a frontline physician regarding their pain, but also may serve as a consultant to other physicians, direct an interdisciplinary/multidisciplinary treatment team, conduct research, or advocate for the patientâ€™s pain care with public and private agencies.  The Pain Medicine physician may work in variety of settings including office, clinic, hospital, university, or governmental/public agencies.",
+          "friendly_url": "Pain-Medicine-Specialists",
+          "visits_number": 2796946,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "223": "General",
+          "893": "Pain Medicine - Interventional Pain Medicine"
+        }
+      },
+      "79": {
+        "id": 79,
+        "name": {
+          "id": 79,
+          "level": "V",
+          "name": "Pathologist",
+          "name_plural": "Pathologists",
+          "name_schemaorg": "Pathology",
+          "name_ads": "Cancer",
+          "api_abreviature": "PATHO",
+          "description": "A physician who specializes in blood banking/transfusion medicine is responsible for the maintenance of an adequate blood supply, blood donor and patient-recipient safety and appropriate blood utilization. Pre-transfusion compatibility testing and antibody testing assure that blood transfusions, when indicated, are as safe as possible. This physician directs the preparation and safe use of specially prepared blood components, including red blood cells, white blood cells, platelets and plasma constituents, and marrow or stem cells for transplantation.",
+          "friendly_url": "Pathologists",
+          "visits_number": 2570238,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "224": "Blood Banking & Transfusion Medicine",
+          "225": "Clinical Pathology",
+          "226": "Cytopathology",
+          "227": "Dermatopathology",
+          "228": "Forensic Pathology",
+          "229": "Hematology",
+          "230": "Immunopathology",
+          "231": "Medical Microbiology",
+          "232": "Neuropathology",
+          "233": "Molecular Genetic Pathology",
+          "234": "Anatomic Pathology",
+          "235": "Anatomic Pathology & Clinical Pathology",
+          "236": "Chemical Pathology",
+          "237": "Clinical Pathology/Laboratory Medicine",
+          "238": "Pediatric Pathology",
+          "882": "Pathology - Clinical Informatics"
+        }
+      },
+      "81": {
+        "id": 81,
+        "name": {
+          "id": 81,
+          "level": "V",
+          "name": "Pediatrician (Kids / Children Specialist)",
+          "name_plural": "Pediatricians",
+          "name_schemaorg": "Pediatric",
+          "name_ads": "Child",
+          "api_abreviature": "PEDIA",
+          "description": "A pediatrician is concerned with the physical, emotional and social health of children from birth to young adulthood. Care encompasses a broad spectrum of health services ranging from preventive healthcare to the diagnosis and treatment of acute and chronic diseases. A pediatrician deals with biological, social and environmental influences on the developing child, and with the impact of disease and dysfunction on development.",
+          "friendly_url": "Pediatricians",
+          "visits_number": 5237751,
+          "enabled": 0,
+          "friendly_url_redirected": "@Pediatrician@"
+        },
+        "sub_specialty": {
+          "239": "General",
+          "240": "Adolescent Medicine",
+          "241": "Hospice & Palliative Medicine",
+          "242": "Clinical & Laboratory Immunology",
+          "243": "Neonatal-Perinatal Medicine",
+          "244": "Developmental - Behavioral Pediatrics",
+          "245": "Neurodevelopmental Disabilities",
+          "246": "Pediatric Allergy & Immunology",
+          "247": "Pediatric Cardiology",
+          "248": "Pediatric Critical Care Medicine",
+          "249": "Pediatric Emergency Medicine",
+          "250": "Pediatric Endocrinology",
+          "251": "Pediatric Gastroenterology",
+          "252": "Pediatric Hematology-Oncology",
+          "253": "Pediatric Infectious Diseases",
+          "254": "Pediatric Nephrology",
+          "255": "Pediatric Pulmonology",
+          "256": "Pediatric Rheumatology",
+          "257": "Sports Medicine",
+          "258": "Sleep Medicine",
+          "259": "Medical Toxicology",
+          "260": "Pediatric Transplant Hepatology",
+          "883": "Pediatrics - Obesity Medicine",
+          "884": "Pediatrics - Child Abuse Pediatrics"
+        }
+      },
+      "82": {
+        "id": 82,
+        "name": {
+          "id": 82,
+          "level": "V",
+          "name": "Phlebologist (Vein Specialist)",
+          "name_plural": "Phlebologists",
+          "name_schemaorg": "Cardiovascular",
+          "name_ads": "Vein",
+          "api_abreviature": "PHLEB",
+          "description": "Phlebology is the medical discipline that involves the diagnosis and treatment of venous disorders, including spider veins, varicose veins, chronic venous insufficiency, venous leg ulcers, congenital venous abnormalities, venous thromboembolism and other disorders of venous origin.\r\n\r\nA phlebologist has attained a minimum of 50 hours of CME units in phlebology-Related courses, and is knowledgeable of and trained in a variety of diagnostic techniques including physical examination, venous imaging techniques such as duplex ultrasound, CT and MR, plethysmographic techniques and laboratory evaluation Related to venous thromboembolism. \r\n\r\nThe phlebologist is also trained in a variety of therapeutic interventions, which may include compression, sclerotherapy, cutaneous vascular laser, endovenous thermoablation procedures (laser and radiofrequency) endovenous chemical ablation, surgical procedures (e.g., ambulatory phlebectomy, venous ligation), vasoactive medications and the management of venous thromboembolism.",
+          "friendly_url": "Phlebologists",
+          "visits_number": 1051683,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "338": "General"
+        }
+      },
+      "83": {
+        "id": 83,
+        "name": {
+          "id": 83,
+          "level": "V",
+          "name": "Physical Therapist (PT)",
+          "name_plural": "Physical Therapists",
+          "name_schemaorg": "Physiotherapy",
+          "name_ads": "Ortho",
+          "api_abreviature": "PHTHE",
+          "description": "Physical therapists are health care professionals who evaluate and treat people with health problems resulting from injury or disease. PTâ€™s assess joint motion, muscle strength and endurance, function of heart and lungs, and performance of activities required in daily living, among other responsibilities. Treatment includes therapeutic exercises, cardiovascular endurance training, and training in activities of daily living. \r\n\r\nPhysical Therapists are qualified by an accredited program in physical therapy, licensed by the state, and practicing within the scope of that license. Physical therapists treat disease, injury, or loss of a bodily part by physical means, such as the application of light, heat, cold, water, electricity, massage and exercise. They develop treatment plans based upon each patientâ€™s strengths, weaknesses, range of motion and ability to function. \r\n\r\nPhysical Therapists are also concerned primarily with the treatment of disorders with physical agents and methods, such as massage, manipulation, therapeutic exercises, cold, heat (including short-wave, microwave, and ultrasonic diathermy), hydrotherapy, electric stimulation and light to assist in rehabilitating patients and in restoring normal function after an illness or injury.",
+          "friendly_url": "Physical-Therapists",
+          "visits_number": 4375849,
+          "enabled": 0,
+          "friendly_url_redirected": "@Physical_Therapist@"
+        },
+        "sub_specialty": {
+          "261": "General",
+          "262": "Cardiopulmonary",
+          "263": "Ergonomics",
+          "264": "Clinical Electrophysiology",
+          "265": "Geriatrics",
+          "266": "Hand",
+          "267": "Human Factors",
+          "268": "Neurology",
+          "269": "Pediatrics",
+          "270": "Sports",
+          "271": "Orthopedic",
+          "792": "Pelvic Pain/Dysfunction",
+          "903": "Physical Therapy Assistant"
+        }
+      },
+      "84": {
+        "id": 84,
+        "name": {
+          "id": 84,
+          "level": "V",
+          "name": "Physician Assistant (PA)",
+          "name_plural": "Physician Assistants",
+          "name_schemaorg": "Physiotherapy",
+          "name_ads": "General",
+          "api_abreviature": "PHYSA",
+          "description": "A physician assistant is a person who has successfully completed an accredited education program for physician assistant, is licensed by the state and is practicing within the scope of that license. Physician assistants are formally trained to perform many of the routine, time-consuming tasks a physician can do. In some states, they may prescribe medications. They take medical histories, perform physical exams, order lab tests and x-rays, and give inoculations. Most states require that they work under the supervision of a physician.",
+          "friendly_url": "Physician-Assistants",
+          "visits_number": 1424051,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "272": "General",
+          "273": "Medical",
+          "274": "Surgical",
+          "791": "Dermatology"
+        }
+      },
+      "85": {
+        "id": 85,
+        "name": {
+          "id": 85,
+          "level": "V",
+          "name": "Plastic, Reconstructive, and Cosmetic Surgeon",
+          "name_plural": "Plastic / Reconstructive / Cosmetic Surgeons",
+          "name_schemaorg": "PlasticSurgery",
+          "name_ads": "Plastic",
+          "api_abreviature": "PLAST",
+          "description": "A surgeon specialized in the repair, restoration or improvement of conditions or injuries to the skin or other external features resulting from disease, injury or birth defects.",
+          "friendly_url": "Plastic--Reconstructive--Cosmetic-Surgeons",
+          "visits_number": 2017948,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "361": "General",
+          "479": "Head and Neck Surgery Specialist",
+          "480": "Hand Surgery Specialist",
+          "886": "Plastic Surgery - Plastic Surgery Within the Head and Neck"
+        }
+      },
+      "87": {
+        "id": 87,
+        "name": {
+          "id": 87,
+          "level": "V",
+          "name": "Podiatrist (Foot Specialist)",
+          "name_plural": "Podiatrists",
+          "name_schemaorg": "Podiatric",
+          "name_ads": "Foot",
+          "api_abreviature": "PODIA",
+          "description": "A podiatrist is a person qualified by a Doctor of Podiatric Medicine (D.P.M.) degree, licensed by the state, and practicing within the scope of that license. Podiatrists diagnose and treat foot diseases and deformities. They perform medical, surgical and other operative procedures, prescribe corrective devices and prescribe and administer drugs and physical therapy.",
+          "friendly_url": "Podiatrists",
+          "visits_number": 2449928,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "275": "Podiatrist",
+          "276": "General Practice",
+          "277": "Public Medicine",
+          "278": "Primary Podiatric Medicine",
+          "279": "Radiology",
+          "280": "Sports Medicine",
+          "281": "Foot & Ankle Surgery",
+          "282": "Foot Surgery",
+          "894": "Assistant, Podiatric"
+        }
+      },
+      "88": {
+        "id": 88,
+        "name": {
+          "id": 88,
+          "level": "V",
+          "name": "Poetry Therapist",
+          "name_plural": "Poetry Therapists",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Mental",
+          "api_abreviature": "POETR",
+          "description": "A medical or mental health professional who has attained credentials after satisfactorily completing a poetry therapy training program approved by the National Federation for Biblio/Poetry Therapy (NFBPT). Training includes didactic work, peer group experience, and supervised practicum.  \r\n\r\nAn NFBPT credentialed certified poetry therapist (CPT) or registered poetry therapist (PTR) integrates discussion of published literature and reflective or creative writing into the psychotherapeutic process to achieve goals of emotional well-being, symptom reduction, and improved interpersonal communication.  Certified poetry therapists and registered poetry therapists are licensed mental health professionals with advanced training in the theory and practice of poetry therapy. CPTs and PTRs are qualified to work indep\r\n\r\nendently with emotionally troubled populations in clinical, rehabilitative, community and educational institutions. They also work with emotionally healthy individuals adjusting to developmental issues, life crises, or disabilities. The PTR completes an advanced level of training and fieldwork, commensurate with the highest levels of clinical practice. The terms poetry therapy, applied poetry facilitation, journal therapy, bibliotherapy, biblio/poetry therapy, and poetry/journal therapy reflect the interactive use of literature and/or writing to promote personal growth and emotional healing. \r\n\r\nIn addition to poetry, poetry therapy applies all forms or written and spoken language including story, myth, folk and fairy tale and other genres of poetic expression as well as journal, memoir, and narrative. The poetry therapy process integrates discussion of published literature and reflective or creative writing for expression and communication of thoughts and feelings to facilitate participants' emotional well-being. The field of poetry therapy encompasses all of these modalities, though only a duly trained and licensed clinical practitioner can be credentialed as CPT or PTR.",
+          "friendly_url": "Poetry-Therapists",
+          "visits_number": 1052510,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "413": "General"
+        }
+      },
+      "89": {
+        "id": 89,
+        "name": {
+          "id": 89,
+          "level": "V",
+          "name": "Preventive Medicine Specialist",
+          "name_plural": "Preventive Medicine Doctors",
+          "name_schemaorg": "PrimaryCare",
+          "name_ads": "General",
+          "api_abreviature": "PREVE",
+          "description": "Preventative Medicine  are physicians who specialize in preventing diseases and injuries rather than curing or treating their symptoms. \r\n\r\nPreventive medicine strategies are typically described as taking place at the primary, secondary, tertiary and quaternary prevention levels. \r\n\r\nIn the United States, preventive medicine is one of the 24 medical specialties recognized by the American Board of Medical Specialties (ABMS). Within the specialty of preventative there are three areas of specialization:\r\n\r\n- General preventive medicine and public health\r\n- Aerospace medicine\r\n- Occupational medicine\r\n\r\nIn order to become board-certified in one of the preventive medicine areas of specialization, a licensed U.S. physician (M.D. or D.O.) must successfully complete a preventive medicine medical residency program following a one-year internship. Following that, the physician must complete a year of practice in that special area and pass the preventive medicine board examination. The residency program is at least two years in length and includes completion of a master's degree in public health (MPH) or equivalent.",
+          "friendly_url": "Preventive-Medicine-Doctors",
+          "visits_number": 2308765,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "441": "Aerospace Medicine",
+          "466": "Undersea and Hyperbaric Medicine",
+          "467": "Preventive Medicine/Occupational Environmental Medicine",
+          "468": "Public Health & General Preventive Medicine",
+          "469": "Sports Medicine",
+          "470": "Medical Toxicology",
+          "471": "Occupational Medicine",
+          "887": "Preventive Medicine - Obesity Medicine",
+          "888": "Preventive Medicine - Clinical Informatics",
+          "1197": "Preventive Medicine - Addiction Medicine"
+        }
+      },
+      "90": {
+        "id": 90,
+        "name": {
+          "id": 90,
+          "level": "V",
+          "name": "Prosthetist",
+          "name_plural": "Prosthetists",
+          "name_schemaorg": "Physiotherapy",
+          "name_ads": "Prosthetist",
+          "api_abreviature": "PROST",
+          "description": "An individual skilled in the practice, making, use, and application to individual cases of an artificial substitute for a missing body part, such as an arm or leg, eye or tooth, used for functional or cosmetic reasons, or both",
+          "friendly_url": "Prosthetists",
+          "visits_number": 873865,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "452": "General"
+        }
+      },
+      "91": {
+        "id": 91,
+        "name": {
+          "id": 91,
+          "level": "V",
+          "name": "Psychiatrist",
+          "name_plural": "Psychiatrists",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Mental",
+          "api_abreviature": "PSY",
+          "description": "A Psychiatrist specializes in the prevention, diagnosis, and treatment of mental disorders, emotional disorders, psychotic disorders, mood disorders, anxiety disorders, substance-Related disorders, sexual and gender identity disorders and adjustment disorders. Biologic, psychological, and social components of illnesses are explored and understood in treatment of the whole person. Tools used may include diagnostic laboratory tests, prescribed medications, evaluation and treatment of psychological and interpersonal problems with individuals and families, and intervention for coping with stress, crises, and other problems.",
+          "friendly_url": "Psychiatrists",
+          "visits_number": 1476920,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "286": "Forensic Psychiatry",
+          "293": "Psychosomatic Medicine",
+          "294": "General",
+          "295": "Addiction Psychiatry",
+          "296": "Child & Adolescent Psychiatry",
+          "297": "Geriatric Psychiatry"
+        }
+      },
+      "92": {
+        "id": 92,
+        "name": {
+          "id": 92,
+          "level": "V",
+          "name": "Neurologist",
+          "name_plural": "Neurologist",
+          "name_schemaorg": "Neurologic",
+          "name_ads": "Neuro",
+          "api_abreviature": "",
+          "description": "A doctor of osteopathy board eligible/certified in the field of Psychiatry by the American Osteopathic Board of Neurology and Psychiatry is able to obtain a Certificate of Added Qualifications in the field of Addiction Medicine",
+          "friendly_url": "Neurologist",
+          "visits_number": 1199951,
+          "enabled": 0,
+          "friendly_url_redirected": "@Neurology@"
+        },
+        "sub_specialty": {
+          "285": "Diagnostic Neuroimaging",
+          "288": "Neuromuscular Medicine",
+          "289": "General",
+          "290": "Special Qualifications in Child Neurology",
+          "292": "Neurodevelopmental Disabilities",
+          "298": "Pain Medicine",
+          "301": "Vascular Neurology",
+          "1199": "Epileptologist"
+        }
+      },
+      "93": {
+        "id": 93,
+        "name": {
+          "id": 93,
+          "level": "V",
+          "name": "Psychoanalyst",
+          "name_plural": "Psychoanalysts",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Mental",
+          "api_abreviature": "",
+          "description": "Psychoanalysts are specialized in the field of psychoanalysis.\r\n\r\nPsychoanalysis is a comprehensive, theoretical framework which, when applied to a treatment process, consists of an intensive verbal, therapeutic relationship between an analyst and an analysand which aims for symptom relief, emotional growth, and personal integration. The psychoanalytic treatment process includes, but is not limited to, the recognition of unconscious processes and conflicts; the significance of developmental influences; and the impact of resistances, defenses, transference and countertransference phenomena. Treatment is enhanced by an understanding developed in the analystâ€™s training and personal analysis of unconscious manifestations, such as dreams, slips of the tongue, fantasies and day dreams. Psychoanalytic technique varies in relation to theoretical orientation.",
+          "friendly_url": "Psychoanalysts",
+          "visits_number": 624910,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "35": "General"
+        }
+      },
+      "94": {
+        "id": 94,
+        "name": {
+          "id": 94,
+          "level": "V",
+          "name": "Psychologist",
+          "name_plural": "Psychologists",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Mental",
+          "api_abreviature": "PSYIS",
+          "description": "A psychologist is an individual who is licensed to practice psychology which is defined as the observation, description, evaluation, interpretation, and modification of human behavior by the application of psychological principles, methods, and procedures, for the purpose of preventing or eliminating symptomatic, maladaptive, or undesired behavior and of enhancing interpersonal relationships, work and life adjustment, personal effectiveness, behavioral health, and mental health.  The practice of psychology includes, but is not limited to, psychological testing and the evaluation or assessment of personal characteristics, such as intelligence, personality, abilities, interests, aptitudes, and neuropsychological functioning; counseling, psychoanalysis, psychotherapy, hypnosis, biofeedback, and behavior analysis and therapy; diagnosis and treatment of mental and emotional disorder or disability, alcoholism and substance abuse, disorders of habit or conduct, as well as of the psychological aspects of physical illness, accident, injury, or disability; and psycheducational evaluation, therapy, remediation, and consultation.  Psychological services may be rendered to individuals, families, groups and the public.",
+          "friendly_url": "Psychologists",
+          "visits_number": 2535769,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "303": "General",
+          "304": "Addiction & Substance Use Disorders",
+          "305": "Adult Development & Aging",
+          "306": "Cognitive & Behavioral",
+          "307": "Clinical",
+          "308": "Counseling",
+          "309": "Clinical Child & Adolescent",
+          "310": "Educational",
+          "311": "Exercise & Sports",
+          "312": "Family",
+          "313": "Forensic",
+          "314": "Health",
+          "315": "Health Service",
+          "316": "Men & Masculinity",
+          "317": "Mental Retardation & Developmental Disabilities",
+          "318": "Medical (Prescribing)",
+          "319": "Psychoanalysis",
+          "320": "Psychotherapy",
+          "321": "Group Psychotherapy",
+          "322": "Rehabilitation",
+          "323": "School",
+          "324": "Women",
+          "1185": "Neuropsychologist"
+        }
+      },
+      "95": {
+        "id": 95,
+        "name": {
+          "id": 95,
+          "level": "V",
+          "name": "Pulmonologist (Lung Specialist)",
+          "name_plural": "Pulmonologists",
+          "name_schemaorg": "Pulmonary",
+          "name_ads": "Lung",
+          "api_abreviature": "PULMO",
+          "description": "An internist who treats diseases of the lungs and airways. The pulmonologist diagnoses and treats cancer, pneumonia, pleurisy, asthma, occupational and environmental diseases, bronchitis, sleep disorders, emphysema and other complex disorders of the lungs.",
+          "friendly_url": "Pulmonologists",
+          "visits_number": 1346219,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "325": "General"
+        }
+      },
+      "96": {
+        "id": 96,
+        "name": {
+          "id": 96,
+          "level": "V",
+          "name": "Radiologist",
+          "name_plural": "Radiologists",
+          "name_schemaorg": "Radiography",
+          "name_ads": "Imaging",
+          "api_abreviature": "RADIO",
+          "description": "A licensed physician, who has completed a residency program in Neurology, and who has additional training, experience, and competence in the standards of performance and interpretation of Magnetic Resonance Imaging (MRI / MRA) of the head, spine, and peripheral nerves, and Computed Tomography (CT) of the head and spine. Physicians are trained in the administration of contrast media and the recognition and treatment of adverse reactions to contrast media. Neuroimaging training encompasses thorough knowledge of clinical neurology, neurophysiology, neuroanatomy, neurochemistry, neuropharmacology, and dynamics of cerebrospinal fluid circulation.  Physicians possess special expertise in the technical aspects and clinical applications of each of the modalities and techniques of neuroimaging.",
+          "friendly_url": "Radiologists",
+          "visits_number": 2709097,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "326": "Body Imaging",
+          "327": "Diagnostic Neuroimaging",
+          "328": "Hospice & Palliative Medicine",
+          "329": "Neuroradiology",
+          "330": "Nuclear Radiology",
+          "331": "Pediatric Radiology",
+          "332": "Radiation Oncology",
+          "333": "Diagnostic Radiology",
+          "334": "Therapeutic Radiology",
+          "335": "Vascular & Interventional Radiology",
+          "336": "Radiological Physics",
+          "337": "Diagnostic Ultrasound",
+          "1186": "Breast Imaging"
+        }
+      },
+      "97": {
+        "id": 97,
+        "name": {
+          "id": 97,
+          "level": "V",
+          "name": "Recreation Therapist",
+          "name_plural": "Recreation Therapists",
+          "name_schemaorg": "Physiotherapy",
+          "name_ads": "Mental",
+          "api_abreviature": "RECRE",
+          "description": "A recreation therapist uses recreational activities for intervention in some physical, social or emotional behavior to bring about a desired change in that behavior and promote the growth and development of the patient.",
+          "friendly_url": "Recreation-Therapists",
+          "visits_number": 868985,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "383": "General"
+        }
+      },
+      "98": {
+        "id": 98,
+        "name": {
+          "id": 98,
+          "level": "V",
+          "name": "Reflexologist",
+          "name_plural": "Reflexologists",
+          "name_schemaorg": "CommunityHealth",
+          "name_ads": "Ortho",
+          "api_abreviature": "REFLE",
+          "description": "Reflexologists perform a non-invasive complementary modality involving thumb and finger techniques to apply alternating pressure to the reflexes within the reflex maps of the body located on the feet, hands, and outer ears. Reflexologists apply pressure to specific areas (feet, hands, and ears) to promote a response from an area far removed from the tissue stimulated via the nervous system and acupuncture meridians. Reflexologists are recommended to complete a minimum of 200 hours of education, typically including anatomy & physiology, Reflexology theory, body systems, zones, meridians & relaxation response, ethics, business standards, and supervised practicum.",
+          "friendly_url": "Reflexologists",
+          "visits_number": 937857,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "448": "General"
+        }
+      },
+      "99": {
+        "id": 99,
+        "name": {
+          "id": 99,
+          "level": "V",
+          "name": "Dietitian",
+          "name_plural": "Registered Dietitians",
+          "name_schemaorg": "DietNutrition",
+          "name_ads": "Stomach",
+          "api_abreviature": "",
+          "description": "A registered dietician (RD) is a food and nutrition expert who has successfully completed a minimum of a bachelorâ€™s degree at a US regionally accredited university or college and course work approved by The American Dietetic Association (ADA); an ADA-accredited or approved, supervised practice program, typically 6 to 12 months in length; a national examination administered by the Commission on Dietetic Registration; and continuing professional educational requirements to maintain registration.",
+          "friendly_url": "Registered-Dietitians",
+          "visits_number": 734612,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "194": "General",
+          "195": "Pediatric Nutrition",
+          "196": "Renal Nutrition",
+          "197": "Metabolic Nutrition",
+          "1191": "Gerontological Nutrition",
+          "1192": "Obesity and Weight Management Nutrition",
+          "1193": "Oncology Nutrition",
+          "1194": "Pediatric Critical Care Nutrition",
+          "1195": "Sports Dietetics Nutrotion"
+        }
+      },
+      "100": {
+        "id": 100,
+        "name": {
+          "id": 100,
+          "level": "V",
+          "name": "Registered Nurse (RN)",
+          "name_plural": "Registered Nurses",
+          "name_schemaorg": "Nursing",
+          "name_ads": "Nurse",
+          "api_abreviature": "REGIS",
+          "description": "A registered nurse is a person qualified by graduation from an accredited nursing school (depending upon schooling, a registered nurse may receive either a diploma from a hospital program, an associate degree in nursing (A.D.N.) or a Bachelor of Science degree in nursing (B.S.N.), who is licensed or certified by the state, and is practicing within the scope of that license or certification. R.N.â€™s assist patient in recovering and maintaining their physical or mental health. They assist physicians during treatments and examinations and administer medications.\r\n\r\nRegistered Nurses are trained and educated in a formal nursing education program at an accredited school of nursing, passes a national certification examination, and are licensed by the state to practice nursing. R.N.'s provide nursing services to patients or clients in areas such as health promotion, disease prevention, acute and chronic care and restoration and maintenance of health across the life span.",
+          "friendly_url": "Registered-Nurses",
+          "visits_number": 1316641,
+          "enabled": 0,
+          "friendly_url_redirected": "@Registered_Nurse@"
+        },
+        "sub_specialty": {
+          "117": "General",
+          "118": "Addiction & Substance Use Disorder",
+          "119": "Administrator",
+          "120": "Critical Care Medicine",
+          "121": "Case Management",
+          "122": "College Health",
+          "123": "Community Health",
+          "124": "Continuing Education/Staff Development",
+          "125": "Continence Care",
+          "126": "Cardiac Rehabilitation",
+          "127": "Diabetes Education",
+          "128": "Peritoneal Dialysis",
+          "129": "Emergency",
+          "130": "Enterostomal Therapy",
+          "131": "Flight",
+          "132": "General Practice",
+          "133": "Gastroenterology",
+          "134": "Gerontology",
+          "135": "Home Health",
+          "136": "Hemodialysis",
+          "137": "Hospice",
+          "138": "Infusion Therapy",
+          "139": "Infection Control",
+          "140": "Lactation Consultant",
+          "141": "Maternal Newborn",
+          "142": "Medical-Surgical",
+          "143": "NMT",
+          "144": "Neonatal Intensive Care",
+          "145": "Neonatal, Low-Risk",
+          "146": "Nephrology",
+          "147": "Neuroscience",
+          "148": "Nutrition Support",
+          "149": "Pain Management",
+          "150": "Pediatrics",
+          "151": "Pediatric Oncology",
+          "152": "Psych/Mental Health, Child & Adolescent",
+          "153": "Psych/Mental Health",
+          "154": "Psych/Mental Health, Adult",
+          "155": "Perinatal",
+          "156": "Ambulatory Care",
+          "157": "Registered Nurse First Assistant",
+          "158": "Rehabilitation",
+          "159": "Reproductive Endocrinology/Fertility",
+          "160": "Plastic Surgery",
+          "161": "School",
+          "162": "Urology",
+          "163": "Wound Care",
+          "164": "Women's Health Care, Ambulatory",
+          "165": "Obstetric, High-Risk",
+          "166": "Obstetric, Inpatient",
+          "167": "Occupational Health",
+          "168": "Oncology",
+          "169": "Otorhinolaryngology & Head-Neck",
+          "170": "Orthopedic",
+          "171": "Ophthalmic",
+          "172": "Ostomy Care"
+        }
+      },
+      "101": {
+        "id": 101,
+        "name": {
+          "id": 101,
+          "level": "V",
+          "name": "Respiratory Therapist",
+          "name_plural": "Registered Respiratory Therapists",
+          "name_schemaorg": "RespiratoryTherapy",
+          "name_ads": "Lung",
+          "api_abreviature": "",
+          "description": "A Registered Respiratory Therapist (RRT) is an advanced therapist who has passed standardized written and clinical simulation examinations administered by the National Board for Respiratory Care (NBRC).  In addition, to the certified therapist (CRT) entry level skills, RRTs have advanced education and training in patient assessment, in the development and modification of patient care plans, and in assuring the appropriate utilization of respiratory care resources.  An RRT is a graduate of an associate or baccalaureate degree producing educational programs approved by the Commission on Accreditation of Allied Health Education Programs (CAAHEP) and where applicable, is licensed by the state and is practicing within the scope of that license.",
+          "friendly_url": "Registered-Respiratory-Therapists",
+          "visits_number": 665488,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "398": "General",
+          "399": "Critical Care",
+          "400": "Emergency Care",
+          "401": "Educational",
+          "402": "Geriatric Care",
+          "403": "General Care",
+          "404": "Home Health",
+          "405": "Pulmonary Diagnostics",
+          "406": "Pulmonary Rehabilitation",
+          "407": "Pulmonary Function Technology",
+          "408": "Palliative & Hospice",
+          "409": "Neonatal/Pediatrics",
+          "410": "Patient Transport",
+          "411": "SNF/Subacute Care"
+        }
+      },
+      "102": {
+        "id": 102,
+        "name": {
+          "id": 102,
+          "level": "V",
+          "name": "Rehabilitation Counselor",
+          "name_plural": "Rehabilitation Counselors",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Mental",
+          "api_abreviature": "REHAB",
+          "description": "Rehabilitation Counselors are trained and educated in a systematic process of assisting persons with physical, mental, developmental, cognitive, and emotional disabilities to achieve their personal, career, and independent living goals assessment and appraisal, diagnosis and treatment planning, career (vocational) counseling, individual and group counseling interventions for adjustments to the medical and psychosocial impact of disability, case management, program evaluation and research, job analysis and placement counseling, and consultation on rehabilitation resources and technology. Certification generally requires a Masterâ€™s degree with specialized courses in rehabilitation processes and technology.",
+          "friendly_url": "Rehabilitation-Counselors",
+          "visits_number": 878031,
+          "enabled": 0,
+          "friendly_url_redirected": "@Rehabilitation@"
+        },
+        "sub_specialty": {
+          "25": "General",
+          "26": "Assistive Technology Practitioner",
+          "27": "Assistive Technology Supplier",
+          "28": "Orientation and Mobility Training Provider"
+        }
+      },
+      "103": {
+        "id": 103,
+        "name": {
+          "id": 103,
+          "level": "V",
+          "name": "Rheumatologist (Joints & Arthritis Specialist)",
+          "name_plural": "Rheumatologists",
+          "name_schemaorg": "Rheumatologic",
+          "name_ads": "Joints",
+          "api_abreviature": "RHEUM",
+          "description": "An internist who treats diseases of joints, muscle, bones and tendons. This specialist diagnoses and treats arthritis, back pain, muscle strains, common athletic injuries and \"collagen\" diseases.",
+          "friendly_url": "Rheumatologists",
+          "visits_number": 1564490,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "442": "General"
+        }
+      },
+      "104": {
+        "id": 104,
+        "name": {
+          "id": 104,
+          "level": "V",
+          "name": "Sleep Medicine Specialist",
+          "name_plural": "Sleep Medicine Specialists",
+          "name_schemaorg": "Neurologic",
+          "name_ads": "Sleep",
+          "api_abreviature": "SLEEP",
+          "description": "An Internist who practices Sleep Medicine is certified in the subspecialty of sleep medicine and specializes in the clinical assessment, physiologic testing, diagnosis, management and prevention of sleep and circadian rhythm disorders. Sleep specialists treat patients of any age and use multidisciplinary approaches. Disorders managed by sleep specialists include, but are not limited to, sleep Related breathing disorders, insomnia, hypersomnias, circadian rhythm sleep disorders, parasomnias and sleep Related movement disorders.",
+          "friendly_url": "Sleep-Medicine-Specialists",
+          "visits_number": 1024579,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "443": "General"
+        }
+      },
+      "105": {
+        "id": 105,
+        "name": {
+          "id": 105,
+          "level": "V",
+          "name": "Speech-Language Pathologist",
+          "name_plural": "Speech-Language Pathologists",
+          "name_schemaorg": "SpeechPathology",
+          "name_ads": "Mental",
+          "api_abreviature": "SPEEC",
+          "description": "A speech pathologist is a person qualified by a masterâ€™s degree in speech-language pathology, and where applicable, licensed by the state and practicing within the scope of the license. Also, known as speech therapist, a speech pathologist evaluates patients with language and speech impairments or disorders, whether arising from physiological and neurological disturbances, defective articulation or foreign dialects, and conducts remedial programs designed to restore or improve their communication efficacy. Speech pathologists assess and treat persons with speech, language, voice, and fluency disorders.",
+          "friendly_url": "Speech-Language-Pathologists",
+          "visits_number": 1067076,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "456": "General"
+        }
+      },
+      "107": {
+        "id": 107,
+        "name": {
+          "id": 107,
+          "level": "V",
+          "name": "Sports Medicine Specialist",
+          "name_plural": "Sports Medicine Specialists",
+          "name_schemaorg": "Physiotherapy",
+          "name_ads": "Ortho",
+          "api_abreviature": "SPORT",
+          "description": "An internist trained to be responsible for continuous care in the field of sports medicine, not only for the enhancement of health and fitness, but also for the prevention of injury and illness. A sports medicine physician must have knowledge and experience in the promotion of wellness and the prevention of injury. Knowledge about special areas of medicine such as exercise physiology, biomechanics, nutrition, psychology, physical rehabilitation, epidemiology, physical evaluation, injuries (treatment and prevention and referral practice) and the role of exercise in promoting a healthy lifestyle are essential to the practice of sports medicine. The sports medicine physician requires special education to provide the knowledge to improve the healthcare of the individual.",
+          "friendly_url": "Sports-Medicine-Specialists",
+          "visits_number": 2633245,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "346": "General",
+          "768": "Anti-Aging and Regenerative Medicine"
+        }
+      },
+      "108": {
+        "id": 108,
+        "name": {
+          "id": 108,
+          "level": "V",
+          "name": "Surgeon",
+          "name_plural": "Surgeons",
+          "name_schemaorg": "Surgical",
+          "name_ads": "Cancer",
+          "api_abreviature": "SURGS",
+          "description": "A general surgeon has expertise Related to the diagnosis - preoperative, operative and postoperative management - and management of complications of surgical conditions in the following areas: alimentary tract; abdomen; breast, skin and soft tissue; endocrine system; head and neck surgery; pediatric surgery; surgical critical care; surgical oncology; trauma and burns; and vascular surgery. General surgeons increasingly provide care through the use of minimally invasive and endoscopic techniques. Many general surgeons also possess expertise in transplantation surgery, plastic surgery and cardiothoracic surgery.",
+          "friendly_url": "Surgeons",
+          "visits_number": 3348252,
+          "enabled": 0,
+          "friendly_url_redirected": "@Hand_Surgeons@@Trauma_Surgeons@@Vascular_Surgeons@"
+        },
+        "sub_specialty": {
+          "347": "General",
+          "351": "Oral & Maxillofacial Surgery",
+          "360": "Pediatric Surgery",
+          "365": "Surgical Oncology",
+          "530": "Surgical Critical Care",
+          "592": "Vascular Surgery",
+          "611": "Trauma Surgery",
+          "625": "Surgery of the Hand",
+          "767": "Cosmetic Surgeon",
+          "800": "Bariatric Surgery"
+        }
+      },
+      "110": {
+        "id": 110,
+        "name": {
+          "id": 110,
+          "level": "V",
+          "name": "Thoracic Surgeon (Cardiothoracic Vascular Surgeon)",
+          "name_plural": "Thoracic Surgeons",
+          "name_schemaorg": "Surgical",
+          "name_ads": "Heart",
+          "api_abreviature": "SURTH",
+          "description": "A thoracic surgeon provides the operative, perioperative and critical care of patients with pathologic conditions within the chest. Included is the surgical care of coronary artery disease, cancers of the lung, esophagus and chest wall, abnormalities of the trachea, abnormalities of the great vessels and heart valves, congenital anomalies, tumors of the mediastinum and diseases of the diaphragm. The management of the airway and injuries of the chest is within the scope of the specialty.",
+          "friendly_url": "Thoracic-Surgeons",
+          "visits_number": 2545034,
+          "enabled": 0,
+          "friendly_url_redirected": "@Thoratic_Surgeons@"
+        },
+        "sub_specialty": {
+          "366": "General"
+        }
+      },
+      "111": {
+        "id": 111,
+        "name": {
+          "id": 111,
+          "level": "V",
+          "name": "Transplant Hepatologist",
+          "name_plural": "Transplant Hepatologists",
+          "name_schemaorg": "Surgical",
+          "name_ads": "Liver",
+          "api_abreviature": "TRANS",
+          "description": "An internist with special knowledge and the skill required of a gastroenterologist to care for patients prior to and following hepatic transplantation that spans all phases of liver transplantation. Selection of appropriate recipients requires assessment by a team having experience in evaluating the severity and prognosis of patients with liver disease.",
+          "friendly_url": "Transplant-Hepatologists",
+          "visits_number": 1114901,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "414": "General"
+        }
+      },
+      "112": {
+        "id": 112,
+        "name": {
+          "id": 112,
+          "level": "V",
+          "name": "Transplant Surgeon",
+          "name_plural": "Transplant Surgeons",
+          "name_schemaorg": "Surgical",
+          "name_ads": "Liver",
+          "api_abreviature": "SUTRA",
+          "description": "A surgeon specialized in procedures involving the replacement of a diseased organ or tissue with a healthy, living substitute.",
+          "friendly_url": "Transplant-Surgeons",
+          "visits_number": 981345,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "367": "General"
+        }
+      },
+      "114": {
+        "id": 114,
+        "name": {
+          "id": 114,
+          "level": "V",
+          "name": "Urologist",
+          "name_plural": "Urologists",
+          "name_schemaorg": "Urologic",
+          "name_ads": "Urology",
+          "api_abreviature": "UROLO",
+          "description": "A urologist manages benign and malignant medical and surgical disorders of the genitourinary system and the adrenal gland. This specialist has comprehensive knowledge of and skills in endoscopic, percutaneous and open surgery of congenital and acquired conditions of the urinary and reproductive systems and their contiguous structures.",
+          "friendly_url": "Urologists",
+          "visits_number": 4308883,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "415": "General",
+          "416": "Pediatric Urology",
+          "892": "Urology - Female Pelvic Medicine and Reconstructive Surgery"
+        }
+      },
+      "116": {
+        "id": 116,
+        "name": {
+          "id": 116,
+          "level": "V",
+          "name": "Physiatrist (Physical Medicine & Rehabilitation)",
+          "name_plural": "Physiatrists",
+          "name_schemaorg": "Physiotherapy",
+          "name_ads": "Ortho",
+          "api_abreviature": "PYAST",
+          "description": "Physical medicine and rehabilitation, also referred to as rehabilitation medicine, is the medical specialty concerned with diagnosing, evaluating, and treating patients with physical disabilities. These disabilities may arise from conditions affecting the musculoskeletal system such as neck and back pain, sports injuries, or other painful conditions affecting the limbs, such as carpal tunnel syndrome. Alternatively, the disabilities may result from neurological trauma or disease such as spinal cord injury, head injury or stroke. \r\n\r\nA physician certified in physical medicine and rehabilitation is often called a physiatrist. The primary goal of the physiatrist is to achieve maximal restoration of physical, psychological, social and vocational function through comprehensive rehabilitation. Pain management is often an important part of the role of the physiatrist. For diagnosis and evaluation, a physiatrist may include the techniques of electromyography to supplement the standard history, physical, x-ray and laboratory examinations. The physiatrist has expertise in the appropriate use of therapeutic exercise, prosthetics (artificial limbs), orthotics and mechanical and electrical devices.",
+          "friendly_url": "Physiatrists",
+          "visits_number": 1518440,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "472": "General",
+          "473": "Hospice and Palliative Medicine",
+          "474": "Neuromuscular Medicine",
+          "475": "Spinal Cord Injury Medicine",
+          "476": "Pediatric Rehabilitation Medicine",
+          "477": "Pain Medicine",
+          "478": "Sports Medicine",
+          "885": "Physical Medicine & Rehabilitation - Brain Injury Medicine"
+        }
+      },
+      "117": {
+        "id": 117,
+        "name": {
+          "id": 117,
+          "level": "V",
+          "name": "Social Worker",
+          "name_plural": "Social Workers",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Mental",
+          "api_abreviature": "",
+          "description": "A social worker provides assistance and counseling to patients and their families and dealing with social, emotional and environmental problems.",
+          "friendly_url": "Social-Workers",
+          "visits_number": 1562298,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "482": "General",
+          "483": "Clinical",
+          "484": "School"
+        }
+      },
+      "118": {
+        "id": 118,
+        "name": {
+          "id": 118,
+          "level": "V",
+          "name": "Psychiatrist / Neurologist",
+          "name_plural": "Psychiatrists / Neurologists",
+          "name_schemaorg": "Psychiatric",
+          "name_ads": "Mental",
+          "api_abreviature": "PSYNE",
+          "description": "A Psychiatrist specializes in the prevention, diagnosis, and treatment of mental disorders, emotional disorders, psychotic disorders, mood disorders, anxiety disorders, substance-related disorders, sexual and gender identity disorders and adjustment disorders. Biologic, psychological, and social components of illnesses are explored and understood in treatment of the whole person. Tools used may include diagnostic laboratory tests, prescribed medications, evaluation and treatment of psychological and interpersonal problems with individuals and families, and intervention for coping with stress, crises, and other problems.",
+          "friendly_url": "Psychiatrists--Neurologists",
+          "visits_number": 4237400,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "283": "Addiction Medicine",
+          "284": "Bariatric Medicine",
+          "287": "Hospice & Palliative Medicine",
+          "291": "Clinical Neurophysiology",
+          "299": "Sports Medicine",
+          "300": "Sleep Medicine",
+          "889": "Psychiatry & Neurology - Neurocritical Care",
+          "890": "Psychiatry & Neurology - Behavioral Neurology & Neuropsychiatry",
+          "891": "Psychiatry & Neurology - Brain Injury Medicine"
+        }
+      },
+      "119": {
+        "id": 119,
+        "name": {
+          "id": 119,
+          "level": "V",
+          "name": "Pharmacist Clinician (PhC)/ Clinical Pharmacist",
+          "name_plural": "Pharmacist Clinicians (PhCs)",
+          "name_schemaorg": "PharmacySpecialty",
+          "name_ads": "Pharma",
+          "api_abreviature": "",
+          "description": "Pharmacist Clinician/Clinical Pharmacy Specialist is a pharmacist with additional training and an expanded scope of practice that may include prescriptive authority, therapeutic management, and disease management.",
+          "friendly_url": "Pharmacist-Clinicians-PhCs",
+          "visits_number": 637597,
+          "enabled": 0,
+          "friendly_url_redirected": "@Pharmacist_Clinician_PhC_Clinical_Pharmacy_Specialist@"
+        },
+        "sub_specialty": {
+          "485": "Pharmacist Clinician (PhC)/ Clinical Pharmacy Specialist"
+        }
+      },
+      "120": {
+        "id": 120,
+        "name": {
+          "id": 120,
+          "level": "V",
+          "name": "Pharmacotherapist",
+          "name_plural": "Pharmacotherapists",
+          "name_schemaorg": "PharmacySpecialty",
+          "name_ads": "Mental",
+          "api_abreviature": "",
+          "description": "A licensed pharmacist who has demonstrated specialized knowledge and skill in optimizing pharmacotherapeutic care of patients, by developing, implementing, monitoring, and modifying complex treatment plans, providing advanced level education and consultation, and collaborating with other health professionals in the management of therapy.",
+          "friendly_url": "Pharmacotherapists",
+          "visits_number": 648035,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "486": "Pharmacotherapy"
+        }
+      },
+      "121": {
+        "id": 121,
+        "name": {
+          "id": 121,
+          "level": "V",
+          "name": "Other Healthcare Professional",
+          "name_plural": "Other Healthcare Professionals",
+          "name_schemaorg": "CommunityHealth",
+          "name_ads": "Other",
+          "api_abreviature": "OTHER",
+          "description": null,
+          "friendly_url": "Other-Healthcare-Professionals",
+          "visits_number": 1616393,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "487": "General",
+          "773": "Aesthetician"
+        }
+      },
+      "122": {
+        "id": 122,
+        "name": {
+          "id": 122,
+          "level": "V",
+          "name": "Pharmacist",
+          "name_plural": "Pharmacist",
+          "name_schemaorg": "PharmacySpecialty",
+          "name_ads": "Pharma",
+          "api_abreviature": "PHARM",
+          "description": "Pharamacists help patients to safely and effectively use the medications that are prescribed to them by physicians and other health professionals. Pharmacists are university trained and have extensive knowledge of drug uses, interactions, side effects, and therapeutic benefits. They are also trained in communicating this information to patients and other health professionals they work with and play a key role in the implementation and effective management of drug therapy in a patient's plan of care.",
+          "friendly_url": "Pharmacist",
+          "visits_number": 560849,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "490": "General",
+          "857": "Pharmacist - Critical Care",
+          "858": "Pharmacist - General Practice",
+          "859": "Pharmacist - Geriatric",
+          "860": "Pharmacist - Nuclear",
+          "861": "Pharmacist - Nutrition Support",
+          "862": "Pharmacist - Pediatrics",
+          "863": "Pharmacist - Psychiatric",
+          "864": "Pharmacist - Ambulatory Care",
+          "865": "Pharmacist - Oncology",
+          "866": "Pharmacy Technician"
+        }
+      },
+      "124": {
+        "id": 124,
+        "name": {
+          "id": 124,
+          "level": "V",
+          "name": "Other Doctors",
+          "name_plural": "Other Doctors",
+          "name_schemaorg": "CommunityHealth",
+          "name_ads": "Other",
+          "api_abreviature": "OTH",
+          "description": null,
+          "friendly_url": "Other-Doctors",
+          "visits_number": 683125,
+          "enabled": 1,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "494": "Specialist"
+        }
+      },
+      "125": {
+        "id": 125,
+        "name": {
+          "id": 125,
+          "level": "V",
+          "name": "Student",
+          "name_plural": "Students",
+          "name_schemaorg": null,
+          "name_ads": "Student",
+          "api_abreviature": null,
+          "description": "Student in an Organized Health Care Education/Training Program",
+          "friendly_url": "Students",
+          "visits_number": 0,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "777": "Student"
+        }
+      },
+      "126": {
+        "id": 126,
+        "name": {
+          "id": 126,
+          "level": "V",
+          "name": "Licensed Skin Care Specialist",
+          "name_plural": "Licensed Skin Care Specialist",
+          "name_schemaorg": "Dermatologic",
+          "name_ads": "PME",
+          "api_abreviature": null,
+          "description": "Student in an Organized Health Care Education/Training Program",
+          "friendly_url": "Licensed-Skin-Care-Specialists",
+          "visits_number": 0,
+          "enabled": 1,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "788": "General"
+        }
+      },
+      "127": {
+        "id": 127,
+        "name": {
+          "id": 127,
+          "level": "V",
+          "name": "Concierge Medicine",
+          "name_plural": "Concierge Medicine",
+          "name_schemaorg": "Concierge Medicine",
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Concierge-Medicine",
+          "visits_number": 0,
+          "enabled": 1,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "793": "General"
+        }
+      },
+      "128": {
+        "id": 128,
+        "name": {
+          "id": 128,
+          "level": "V",
+          "name": "Skilled Nursing Facility Care",
+          "name_plural": "Skilled Nursing Facility Care",
+          "name_schemaorg": "Skilled Nursing Facility Care",
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Skilled-Nursing-Facility-Care",
+          "visits_number": 0,
+          "enabled": 1,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "794": "General"
+        }
+      },
+      "129": {
+        "id": 129,
+        "name": {
+          "id": 129,
+          "level": "V",
+          "name": "Nutrition Counseling",
+          "name_plural": "Nutrition Counseling",
+          "name_schemaorg": "Nutrition Counseling",
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Nutrition-Counseling",
+          "visits_number": 0,
+          "enabled": 1,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "795": "General"
+        }
+      },
+      "130": {
+        "id": 130,
+        "name": {
+          "id": 130,
+          "level": "V",
+          "name": "Pediatric Ophthalmology ",
+          "name_plural": "Pediatric Ophthalmology ",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": "POpht",
+          "description": null,
+          "friendly_url": "Pediatric-Ophthalmology",
+          "visits_number": 0,
+          "enabled": 1,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "796": "Pediatric Ophthalmology"
+        }
+      },
+      "132": {
+        "id": 132,
+        "name": {
+          "id": 132,
+          "level": "V",
+          "name": "Behavioral Health & Social Service Providers",
+          "name_plural": "Behavioral Health & Social Service Providers",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Behavioral-Health-Social-Service-Providers",
+          "visits_number": 0,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "804": "Clinical Neuropsychologist - Clinical",
+          "805": "Behavioral Analyst",
+          "806": "Assistant Behavior Analyst",
+          "807": "Behavior Technician",
+          "1200": "Drama Therapist"
+        }
+      },
+      "133": {
+        "id": 133,
+        "name": {
+          "id": 133,
+          "level": "V",
+          "name": "Dental Providers",
+          "name_plural": "Dental Providers",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Dental-Providers",
+          "visits_number": 0,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "778": "Dental Hygienist",
+          "809": "Dental Therapist",
+          "810": "Advanced Practice Dental Therapist",
+          "811": "Oral Medicinist",
+          "812": "Dental Assistant",
+          "813": "Dental Laboratory Technician",
+          "1198": "Pain Orofacial"
+        }
+      },
+      "134": {
+        "id": 134,
+        "name": {
+          "id": 134,
+          "level": "V",
+          "name": "Emergency Medical Service Providers",
+          "name_plural": "Emergency Medical Service Providers",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Emergency-Medical-Service-Providers",
+          "visits_number": 0,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "816": "Personal Emergency Response Attendant",
+          "817": "Emergency Medical Technician, Paramedic",
+          "818": "Emergency Medical Technician, Intermediate",
+          "819": "Emergency Medical Technician, Basic"
+        }
+      },
+      "135": {
+        "id": 135,
+        "name": {
+          "id": 135,
+          "level": "V",
+          "name": "Eye and Vision Services Providers",
+          "name_plural": "Eye and Vision Services Providers",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Eye-and-Vision-Services-Providers",
+          "visits_number": 0,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "820": "Technician/Technologist",
+          "821": "Technician/Technologist - Contact Lens",
+          "822": "Technician/Technologist - Contact Lens Fitter",
+          "823": "Technician/Technologist - Ophthalmic",
+          "824": "Technician/Technologist - Ophthalmic Assistant",
+          "825": "Technician/Technologist - Optometric Assistant",
+          "826": "Technician/Technologist - Optometric Technician",
+          "827": "Technician/Technologist - Ocularist",
+          "828": "Technician/Technologist - Optician",
+          "829": "Technician/Technologist - Orthoptist"
+        }
+      },
+      "136": {
+        "id": 136,
+        "name": {
+          "id": 136,
+          "level": "V",
+          "name": "Other Service Providers",
+          "name_plural": "Other Service Providers",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Other-Service-Providers",
+          "visits_number": 0,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "830": "Military Health Care Provider",
+          "831": "Military Health Care Provider - Independent Duty Corpsman",
+          "832": "Military Health Care Provider - Independent Duty Medical Technicians",
+          "833": "Case Manager/Care Coordinator",
+          "834": "Interpreter",
+          "835": "Contractor",
+          "836": "Contractor - Home Modifications",
+          "837": "Contractor - Vehicle Modifications",
+          "838": "Driver",
+          "839": "Community Health Worker",
+          "840": "Legal Medicine",
+          "841": "Sleep Specialist, PhD",
+          "842": "Meals",
+          "843": "Specialist - Graphics Designer",
+          "844": "Specialist - Prosthetics Case Management",
+          "845": "Specialist - Research Study",
+          "846": "Specialist - Research Data Abstracter/Coder",
+          "847": "Health Educator",
+          "848": "Veterinarian",
+          "849": "Veterinarian - Medical Research",
+          "850": "Lactation Consultant, Non-RN",
+          "851": "Clinical Ethicist",
+          "852": "Midwife, Lay",
+          "853": "Peer Specialist",
+          "854": "Midwife",
+          "855": "Funeral Director",
+          "856": "Lodging",
+          "1174": "Prevention Professional",
+          "1201": "Health & Wellness Coach"
+        }
+      },
+      "137": {
+        "id": 137,
+        "name": {
+          "id": 137,
+          "level": "V",
+          "name": "Group",
+          "name_plural": "Group",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Group",
+          "visits_number": 0,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "867": "Multi-Specialty",
+          "868": "Single Specialty"
+        }
+      },
+      "138": {
+        "id": 138,
+        "name": {
+          "id": 138,
+          "level": "V",
+          "name": "Allopathic & Osteopathic Physicians",
+          "name_plural": "Allopathic & Osteopathic Physicians",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Allopathic-Osteopathic-Physicians",
+          "visits_number": 0,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "869": "Electrodiagnostic Medicine"
+        }
+      },
+      "139": {
+        "id": 139,
+        "name": {
+          "id": 139,
+          "level": "V",
+          "name": "Respiratory, Developmental, Rehabilitative and Restorative Service Providers",
+          "name_plural": "Respiratory, Developmental, Rehabilitative and Restorative Service Providers",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Respiratory-Developmental-Rehabilitative-and-Restorative-Service-Providers",
+          "visits_number": 0,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "895": "Mastectomy Fitter",
+          "896": "Pedorthist",
+          "897": "Clinical Exercise Physiologist",
+          "904": "Rehabilitation Practitioner",
+          "905": "Specialist/Technologist",
+          "906": "Specialist/Technologist - Athletic Trainer",
+          "907": "Specialist/Technologist - Rehabilitation, Blind",
+          "908": "Pulmonary Function Technologist",
+          "909": "Recreational Therapist Assistant"
+        }
+      },
+      "140": {
+        "id": 140,
+        "name": {
+          "id": 140,
+          "level": "V",
+          "name": "Speech, Language and Hearing Service Providers",
+          "name_plural": "Speech, Language and Hearing Service Providers",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Speech-Language-and-Hearing-Service-Providers",
+          "visits_number": 0,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "910": "Specialist/Technologist",
+          "911": "Specialist/Technologist - Audiology Assistant",
+          "912": "Specialist/Technologist - Speech-Language Assistant"
+        }
+      },
+      "141": {
+        "id": 141,
+        "name": {
+          "id": 141,
+          "level": "V",
+          "name": "Technologists, Technicians & Other Technical Service Providers",
+          "name_plural": "Technologists, Technicians & Other Technical Service Providers",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Technologists-Technicians-Other-Technical-Service-Providers",
+          "visits_number": 0,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "913": "Perfusionist",
+          "914": "Radiology Practitioner Assistant",
+          "915": "Spec/Tech, Pathology",
+          "916": "Spec/Tech, Pathology - Blood Banking",
+          "917": "Spec/Tech, Pathology - Chemistry",
+          "918": "Spec/Tech, Pathology - Cytotechnology",
+          "919": "Spec/Tech, Pathology - Hematology",
+          "920": "Spec/Tech, Pathology - Hemapheresis Practitioner",
+          "921": "Spec/Tech, Pathology - Histology",
+          "922": "Spec/Tech, Pathology - Immunology",
+          "923": "Spec/Tech, Pathology - Laboratory Management",
+          "924": "Spec/Tech, Pathology - Laboratory Management, Diplomate",
+          "925": "Spec/Tech, Pathology - Medical Technologist",
+          "926": "Spec/Tech, Pathology - Microbiology",
+          "927": "Technician, Pathology",
+          "928": "Technician, Pathology - Histology",
+          "929": "Technician, Pathology - Medical Laboratory",
+          "930": "Technician, Pathology - Phlebotomy",
+          "931": "Technician, Cardiology",
+          "932": "Spec/Tech, Cardiovascular",
+          "933": "Spec/Tech, Cardiovascular - Cardiovascular Invasive Specialist",
+          "934": "Spec/Tech, Cardiovascular - Vascular Specialist",
+          "935": "Spec/Tech, Cardiovascular - Sonography",
+          "936": "Spec/Tech, Health Info",
+          "937": "Spec/Tech, Health Info - Coding Specialist, Hospital Based",
+          "938": "Spec/Tech, Health Info - Coding Specialist, Physician Office Based",
+          "939": "Spec/Tech, Health Info - Registered Record Administrator",
+          "940": "Specialist/Technologist, Other",
+          "941": "Specialist/Technologist, Other - Art, Medical",
+          "942": "Specialist/Technologist, Other - Biomedical Engineering",
+          "943": "Specialist/Technologist, Other - Biomedical Photographer",
+          "944": "Specialist/Technologist, Other - Biochemist",
+          "945": "Specialist/Technologist, Other - Biostatistician",
+          "946": "Specialist/Technologist, Other - Surgical Assistant",
+          "947": "Specialist/Technologist, Other - EEG",
+          "948": "Specialist/Technologist, Other - Electroneurodiagnostic",
+          "949": "Specialist/Technologist, Other - Graphics Methods",
+          "950": "Specialist/Technologist, Other - Geneticist, Medical (PhD)",
+          "951": "Specialist/Technologist, Other - Illustration, Medical",
+          "952": "Specialist/Technologist, Other - Nephrology",
+          "953": "Specialist/Technologist, Other - Surgical Technologist",
+          "954": "Specialist/Technologist, Other - Orthopedic Assistant",
+          "955": "Technician, Health Information",
+          "956": "Technician, Health Information - Assistant Record Technician",
+          "957": "Radiologic Technologist",
+          "958": "Radiologic Technologist - Bone Densitometry",
+          "959": "Radiologic Technologist - Cardiovascular-Interventional Technology",
+          "960": "Radiologic Technologist - Cardiac-Interventional Technology",
+          "961": "Radiologic Technologist - Computed Tomography",
+          "962": "Radiologic Technologist - Radiography",
+          "963": "Radiologic Technologist - Magnetic Resonance Imaging",
+          "964": "Radiologic Technologist - Mammography",
+          "965": "Radiologic Technologist - Nuclear Medicine Technology",
+          "966": "Radiologic Technologist - Quality Management",
+          "967": "Radiologic Technologist - Radiation Therapy",
+          "968": "Radiologic Technologist - Sonography",
+          "969": "Radiologic Technologist - Vascular Sonography",
+          "970": "Radiologic Technologist - Vascular-Interventional Technology",
+          "971": "Technician, Other",
+          "972": "Technician, Other - Biomedical Engineering",
+          "973": "Technician, Other - Darkroom",
+          "974": "Technician, Other - EEG",
+          "975": "Technician, Other - Renal Dialysis",
+          "976": "Technician, Other - Veterinary",
+          "977": "Pathology - Clinical Laboratory Director, Non-physician"
+        }
+      },
+      "152": {
+        "id": 152,
+        "name": {
+          "id": 152,
+          "level": "V",
+          "name": "Physician Assistants & Advanced Practice Nursing Providers",
+          "name_plural": "Physician Assistants & Advanced Practice Nursing Providers",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Physician-Assistants-Advanced-Practice-Nursing-Providers",
+          "visits_number": 0,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "1155": "Anesthesiologist Assistant",
+          "1202": "Transportation Services"
+        }
+      },
+      "153": {
+        "id": 153,
+        "name": {
+          "id": 153,
+          "level": "V",
+          "name": "Nursing Service Related Providers",
+          "name_plural": "Nursing Service Related Providers",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": null,
+          "description": null,
+          "friendly_url": "Nursing-Service-Related-Providers",
+          "visits_number": 0,
+          "enabled": 0,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "1156": "Chore Provider",
+          "1157": "Adult Companion",
+          "1158": "Day Training/Habilitation Specialist",
+          "1159": "Technician",
+          "1160": "Technician - Attendant Care Provider",
+          "1161": "Technician - Personal Care Attendant",
+          "1162": "Doula",
+          "1163": "Religious Nonmedical Practitioner",
+          "1164": "Religious Nonmedical Nursing Personnel",
+          "1165": "Home Health Aide",
+          "1166": "Nursing Home Administrator",
+          "1167": "Homemaker",
+          "1168": "Nurse's Aide"
+        }
+      },
+      "155": {
+        "id": 155,
+        "name": {
+          "id": 155,
+          "level": "V",
+          "name": "Regenerative Medicine Specialist",
+          "name_plural": "Regenerative Medicine Specialists",
+          "name_schemaorg": null,
+          "name_ads": "Regenerative Medicine Specialist",
+          "api_abreviature": "RegSp",
+          "description": null,
+          "friendly_url": "Regenerative-Medicine-Specialists",
+          "visits_number": 0,
+          "enabled": 1,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "1177": "General",
+          "1178": "Sports Medicine",
+          "1179": "Anti-Aging and Aesthetics",
+          "1180": "Orthopedics"
+        }
+      },
+      "157": {
+        "id": 157,
+        "name": {
+          "id": 157,
+          "level": "V",
+          "name": "Laser Technician",
+          "name_plural": "Laser Technicians",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": "",
+          "description": null,
+          "friendly_url": "Laser-Technicians",
+          "visits_number": 0,
+          "enabled": 1,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "1183": "General"
+        }
+      },
+      "158": {
+        "id": 158,
+        "name": {
+          "id": 158,
+          "level": "V",
+          "name": "Marijuana Doctor",
+          "name_plural": "Marijuana Doctors",
+          "name_schemaorg": null,
+          "name_ads": "",
+          "api_abreviature": "",
+          "description": null,
+          "friendly_url": "Marijuana-Doctors",
+          "visits_number": 0,
+          "enabled": 1,
+          "friendly_url_redirected": null
+        },
+        "sub_specialty": {
+          "1190": "General"
+        }
+      }
+    }
+  }

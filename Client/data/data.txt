@@ -1,0 +1,1736 @@
+TRUNCATE TABLE Specialties
+GO
+SET IDENTITY_INSERT Specialties ON
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (1, 'Acupuncturist (Alternative Medicine)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (2, 'General', 1, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (3, 'Addiction Medicine Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (4, 'General', 3, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (5, 'Adolescent Medicine Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (6, 'General', 5, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (7, 'Allergist-Immunologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (8, 'General', 7, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (9, 'Allergy', 7, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (10, 'Clinical & Laboratory Immunology', 7, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (11, 'Anaplastologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (12, 'General', 11, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (13, 'Anesthesiologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (14, 'General', 13, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (15, 'Addiction Medicine', 13, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (16, 'Critical Care Medicine', 13, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (17, 'Hospice & Palliative Medicine', 13, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (18, 'Pain Medicine', 13, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (19, 'Pediatric Anesthesiologist', 13, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (20, 'Art Therapist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (21, 'General', 20, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (22, 'Audiologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (23, 'General', 22, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (24, 'Assistive Technology Practitioner', 22, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (25, 'Assistive Technology Supplier', 22, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (26, 'Hearing Aid Fitter', 22, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (27, 'Bariatrician (Weight Loss Specialist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (28, 'Bariatric Medicine (Bariatrician)', 27, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (29, 'Cardiologist (Heart Specialist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (30, 'General', 29, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (31, 'Clinical Cardiac Electrophysiology', 29, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (32, 'Pediatric Cardiothoracic Surgery', 29, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (33, 'Certified Nurse Midwife', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (34, 'General', 33, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (35, 'Certified Respiratory Therapist (CRT)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (36, 'General', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (37, 'Critical Care', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (38, 'Emergency Care', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (39, 'Educational', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (40, 'Geriatric Care', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (41, 'General Care', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (42, 'Home Health', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (43, 'Pulmonary Diagnostics', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (44, 'Pulmonary Rehabilitation', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (45, 'Pulmonary Function Technology', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (46, 'Palliative/Hospice', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (47, 'Neonatal/Pediatrics', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (48, 'Patient Transport', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (49, 'SNF/Subacute Care', 35, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (50, 'Chiropractor', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (51, 'General', 50, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (52, 'Independent Medical Examination', 50, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (53, 'Internist', 50, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (54, 'Neurology', 50, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (55, 'Nutrition', 50, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (56, 'Pediatric', 50, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (57, 'Radiology', 50, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (58, 'Rehabilitation', 50, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (59, 'Sports Medicine', 50, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (60, 'Thermography', 50, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (61, 'Occupational Medicine', 50, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (62, 'Orthopedic', 50, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (63, 'Functional Medicine', 50, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (64, 'Clinical / Laboratory Immunologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (65, 'General', 64, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (66, 'Clinical Neuropsychologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (67, 'General', 66, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (68, 'Clinical Nurse Specialist (CNS)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (69, 'General', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (70, 'Acute Care', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (71, 'Adult Health', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (72, 'Critical Care Medicine', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (73, 'Community Health/Public Health', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (74, 'Chronic Care', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (75, 'Emergency', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (76, 'Ethics', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (77, 'Family Health', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (78, 'Gerontology', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (79, 'Home Health', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (80, 'Holistic', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (81, 'Informatics', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (82, 'Long-Term Care', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (83, 'Medical-Surgical', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (84, 'Neonatal', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (85, 'Neuroscience', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (86, 'Pediatrics', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (87, 'Psych/Mental Health, Child & Adolescent', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (88, 'Psych/Mental Health', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (89, 'Psych/Mental Health, Adult', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (90, 'Psych/Mental Health, Child & Family', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (91, 'Psych/Mental Health, Chronically Ill', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (92, 'Psych/Mental Health, Community', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (93, 'Psych/Mental Health, Geropsychiatric', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (94, 'Perinatal', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (95, 'Perioperative', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (96, 'Rehabilitation', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (97, 'School', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (98, 'Transplantation', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (99, 'Womens Health', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (100, 'Occupational Health', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (101, 'Oncology', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (102, 'Oncology, Pediatrics', 68, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (103, 'Clinical Pharmacologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (104, 'General', 103, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (105, 'Colon & Rectal Surgeon (Proctologist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (106, 'General', 105, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (107, 'Counselor', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (108, 'General', 107, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (109, 'Addiction & Substance Use Disorder', 107, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (110, 'Mental Health', 107, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (111, 'Pastoral', 107, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (112, 'Professional', 107, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (113, 'School', 107, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (114, 'Critical Care Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (115, 'Doctor of Critical Care Medicine', 114, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (116, 'Dance Therapist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (117, 'General', 116, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (118, 'Dentist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (119, 'General', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (120, 'Dental Public Health', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (121, 'Endodontics (Endodontist)', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (122, 'Primary Dental Care', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (123, 'Oral and Maxillofacial Pathology', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (124, 'Pediatric Dentist', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (125, 'Periodontics (Periodontist)', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (126, 'Prosthodontics (Prosthodontist)', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (127, 'Oral & Maxillofacial Surgery', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (128, 'Oral & Maxillofacial Radiology', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (129, 'Orthodontics & Dentofacial Orthopedics (Orthodontist)', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (130, 'Cosmetic Dentist', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (131, 'Family and Cosmetic Dentist', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (132, 'Periodontal and Implant Surgery Specialist', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (133, 'Sleep Therapy', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (134, 'Oral Appliance Therapy', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (135, 'Dentist - Dentist Anesthesiologist', 118, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (136, 'Denturist (Dentures Specialist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (137, 'General', 136, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (138, 'Dermatologist (Skin Specialist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (139, 'General', 138, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (140, 'MOHS-Micrographic Surgery', 138, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (141, 'Dermatopathology', 138, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (142, 'Clinical & Laboratory Dermatological Immunology', 138, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (143, 'Pediatric Dermatology', 138, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (144, 'Procedural Dermatologist', 138, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (145, 'Cosmetic Dermatology', 138, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (146, 'Hair Loss and Hair Restoration Expert', 138, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (147, 'Developmental Therapist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (148, 'General', 147, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (149, 'Dietary Manager', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (150, 'General', 149, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (151, 'Emergency Doctor', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (152, 'General', 151, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (153, 'Emergency Medical Services (EMS)', 151, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (154, 'Undersea & Hyperbaric Medicine', 151, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (155, 'Hospice & Palliative Medicine', 151, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (156, 'Pediatric Emergency Medicine', 151, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (157, 'Sports Medicine', 151, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (158, 'Medical Toxicology', 151, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (159, 'Endocrinologist (Diabetes & Hormones Specialist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (160, 'General', 159, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (161, 'Family Doctor', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (162, 'General', 161, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (163, 'Adolescent Medicine', 161, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (164, 'Addiction Medicine', 161, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (165, 'Adult Medicine', 161, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (166, 'Bariatric Medicine', 161, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (167, 'Geriatric Medicine', 161, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (168, 'Hospice & Palliative Medicine', 161, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (169, 'Sports Medicine', 161, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (170, 'Medical Aesthetics', 161, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (171, 'Family Medicine - Sleep Medicine', 161, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (172, 'Gastroenterologist (Stomach & Bowel Specialist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (173, 'General', 172, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (174, 'General Practice Doctor (General Practitioner)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (175, 'General', 174, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (176, 'Aesthetic Medicine', 174, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (177, 'Hair Loss and Hair Restoration Expert', 174, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (178, 'Integrative Medicine', 174, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (179, 'Geriatric Medicine Doctor', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (180, 'General', 179, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (181, 'Hearing Instrument Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (182, 'General', 181, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (183, 'Hematology / Oncology Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (184, 'General', 183, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (185, 'Oncologist (Cancer)', 183, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (186, 'Hematologist (Blood)', 183, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (187, 'Hepatologist (Liver, Gallbladder & Pancreas)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (188, 'General', 187, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (189, 'Homeopath (Alternative Medicine)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (190, 'General', 189, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (191, 'Hospice & Palliative Medicine Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (192, 'General', 191, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (193, 'Hospice & Palliative Surgeon', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (194, 'General', 193, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (195, 'Hospitalist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (196, 'General', 195, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (197, 'Independent Medical Examiner', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (198, 'General', 197, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (199, 'Infectious Disease Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (200, 'General', 199, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (201, 'Internist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (202, 'General', 201, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (203, 'Aesthetic Medicine', 201, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (204, 'Sports Medicine', 201, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (205, 'Internal Medicine - Advanced Heart Failure and Transplant Cardiology', 201, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (206, 'Internal Medicine - Allergy & Immunology', 201, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (207, 'Internal Medicine - Hypertension Specialist', 201, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (208, 'Internal Medicine - Adult Congenital Heart Disease', 201, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (209, 'Interventional Cardiologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (210, 'General', 209, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (211, 'Kinesiotherapist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (212, 'General', 211, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (213, 'Legal Medicine Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (214, 'General', 213, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (215, 'Licensed Physchiatric Technician (LPT)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (216, 'General', 215, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (217, 'Licensed Practical Nurse (LPN)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (218, 'General', 217, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (219, 'Aesthetics', 217, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (220, 'Licensed Vocational Nurse (LVN)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (221, 'General', 220, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (222, 'Magnetic Resonance Imaging (MRI) Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (223, 'General', 222, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (224, 'Marriage & Family Therapist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (225, 'General', 224, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (226, 'Massage Therapist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (227, 'Licensed Massage Therapist', 226, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (228, 'Mechanotherapist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (229, 'General', 228, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (230, 'Medical Geneticist (Genetic & Hereditary Disease Specialist) ', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (231, 'Clinical Cytogenetics', 230, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (232, 'Clinical Biochemical Genetics', 230, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (233, 'Clinical Molecular Genetics', 230, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (234, 'Medical Geneticist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (235, 'Clinical Genetics', 234, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (236, 'Medical Genetics', 234, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (237, 'Molecular Genetic Pathology', 234, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (238, 'Medical Genetics, Ph.D. Medical Genetics', 234, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (239, 'Genetic Counselor, MS', 234, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (240, 'Music Therapist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (241, 'General', 240, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (242, 'Naprapath (Alternative Medicine)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (243, 'General', 242, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (244, 'Naturopath', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (245, 'General', 244, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (246, 'Nephrologist (Kidney Specialist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (247, 'General', 246, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (248, 'Neurological Surgeon', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (249, 'General', 248, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (250, 'Neuromusculoskeletal Medicine Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (251, 'Osteopathic Manual Manipulation', 250, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (252, 'Sports Medicine', 250, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (253, 'Nuclear Medicine Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (254, 'General', 253, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (255, 'Nuclear Cardiology', 253, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (256, 'Nuclear Imaging & Therapy', 253, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (257, 'In Vivo & In Vitro Nuclear Medicine', 253, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (258, 'Nurse Anesthetist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (259, 'General', 258, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (260, 'Nurse Practitioner (NP)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (261, 'General', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (262, 'Acute Care', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (263, 'Adult Health', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (264, 'Critical Care Medicine', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (265, 'Community Health', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (266, 'Family', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (267, 'Gerontology', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (268, 'Neonatal', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (269, 'Neonatal, Critical Care', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (270, 'Pediatrics', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (271, 'Pediatrics, Critical Care', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (272, 'Psych/Mental Health', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (273, 'Perinatal', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (274, 'Primary Care', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (275, 'School', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (276, 'Womens Health', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (277, 'Obstetrics & Gynecology', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (278, 'Occupational Health', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (279, 'Dermatology', 260, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (280, 'Nutritionist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (281, 'General', 280, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (282, 'Nutritionist - Nutrition, Education', 280, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (283, 'Dietetic Technician, Registered', 280, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (284, 'Obstetrician / Gynecologist (OBGYN)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (285, 'General', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (286, 'Bariatric Medicine', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (287, 'Critical Care Medicine', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (288, 'Reproductive Endocrinology', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (289, 'Gynecology', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (290, 'Hospice & Palliative Medicine', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (291, 'Maternal & Fetal Medicine', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (292, 'Obstetrics', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (293, 'Gynecologic Oncology', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (294, 'Fertility and Cosmetic Surgery', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (295, 'Obstetrics & Gynecology - Female Pelvic Medicine and Reconstructive Surgery', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (296, 'Reproductive Endocrinology and Fertility', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (297, 'Urogynecology', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (298, 'Obstetrics & Gynecology - Complex Family Planning', 284, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (299, 'Occupational Therapist (OT)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (300, 'General', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (301, 'Ergonomics', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (302, 'Hand Specialist', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (303, 'Human Factors', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (304, 'Neurorehabilitation', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (305, 'Pediatrics', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (306, 'Driving and Community Mobility', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (307, 'Environmental Modification', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (308, 'Feeding, Eating & Swallowing', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (309, 'Gerontology', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (310, 'Low Vision', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (311, 'Mental Health', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (312, 'Physical Rehabilitation', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (313, 'Occupational Therapy Assistant', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (314, 'Occupational Therapy Assistant - Environmental Modification', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (315, 'Occupational Therapy Assistant - Feeding, Eating & Swallowing', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (316, 'Occupational Therapy Assistant - Low Vision', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (317, 'Occupational Therapy Assistant - Driving and Community Mobility', 299, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (318, 'Ophthalmologist (Eye Doctor)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (319, 'General', 318, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (320, 'Ophthalmology - Glaucoma Specialist', 318, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (321, 'Ophthalmology - Retina Specialist', 318, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (322, 'Ophthalmology - Uveitis and Ocular Inflammatory Disease', 318, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (323, 'Ophthalmology - Neuro-ophthalmology', 318, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (324, 'Ophthalmology - Pediatric Ophthalmology and Strabismus Specialist', 318, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (325, 'Ophthalmology - Cornea and External Diseases Specialist', 318, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (326, 'Ophthalmology - Ophthalmic Plastic and Reconstructive Surgery', 318, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (327, 'Optometrist (Eye & Vision Specialist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (328, 'General', 327, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (329, 'Corneal and Contact Management', 327, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (330, 'Low Vision Rehabilitation', 327, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (331, 'Pediatrics', 327, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (332, 'Sports Vision', 327, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (333, 'Vision Therapy', 327, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (334, 'Occupational Vision', 327, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (335, 'Orthopedic Surgeon', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (336, 'General', 335, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (337, 'Hand Surgery', 335, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (338, 'Surgery of the Spine', 335, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (339, 'Foot & Ankle Surgery', 335, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (340, 'Sports Medicine', 335, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (341, 'Adult Reconstructive Orthopaedic Surgery', 335, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (342, 'Pediatric Orthopaedic Surgery', 335, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (343, 'Orthopaedic Trauma', 335, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (344, 'Joint Replacement', 335, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (345, 'Orthotics/Prosthetics Fitter', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (346, 'General', 345, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (347, 'Orthotist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (348, 'General', 347, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (349, 'Otolaryngologist (Ear, Nose & Throat - ENT)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (350, 'General', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (351, 'Pediatric Otolaryngology', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (352, 'Sleep Medicine', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (353, 'Facial Plastic Surgery', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (354, 'Head & Neck Oncology Surgery', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (355, 'Otolaryngic Allergy', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (356, 'Otology & Neurotology', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (357, 'Facial Plastic & Reconstructive Surgery', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (358, 'Sinus', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (359, 'Sleep & Snoring', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (360, 'Thyroid/Parathyroid', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (361, 'Sinus & Skull Base Surgery', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (362, 'Skull Base Surgery', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (363, 'Sinus Surgery', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (364, 'Microvascular Reconstruction', 349, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (365, 'Pain Medicine Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (366, 'General', 365, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (367, 'Pain Medicine - Interventional Pain Medicine', 365, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (368, 'Pathologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (369, 'Blood Banking & Transfusion Medicine', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (370, 'Clinical Pathology', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (371, 'Cytopathology', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (372, 'Dermatopathology', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (373, 'Forensic Pathology', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (374, 'Hematology', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (375, 'Immunopathology', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (376, 'Medical Microbiology', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (377, 'Neuropathology', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (378, 'Molecular Genetic Pathology', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (379, 'Anatomic Pathology', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (380, 'Anatomic Pathology & Clinical Pathology', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (381, 'Chemical Pathology', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (382, 'Clinical Pathology/Laboratory Medicine', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (383, 'Pediatric Pathology', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (384, 'Pathology - Clinical Informatics', 368, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (385, 'Pediatrician (Kids / Children Specialist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (386, 'General', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (387, 'Adolescent Medicine', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (388, 'Hospice & Palliative Medicine', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (389, 'Clinical & Laboratory Immunology', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (390, 'Neonatal-Perinatal Medicine', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (391, 'Developmental - Behavioral Pediatrics', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (392, 'Neurodevelopmental Disabilities', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (393, 'Pediatric Allergy & Immunology', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (394, 'Pediatric Cardiology', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (395, 'Pediatric Critical Care Medicine', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (396, 'Pediatric Emergency Medicine', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (397, 'Pediatric Endocrinology', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (398, 'Pediatric Gastroenterology', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (399, 'Pediatric Hematology-Oncology', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (400, 'Pediatric Infectious Diseases', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (401, 'Pediatric Nephrology', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (402, 'Pediatric Pulmonology', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (403, 'Pediatric Rheumatology', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (404, 'Sports Medicine', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (405, 'Sleep Medicine', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (406, 'Medical Toxicology', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (407, 'Pediatric Transplant Hepatology', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (408, 'Pediatrics - Obesity Medicine', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (409, 'Pediatrics - Child Abuse Pediatrics', 385, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (410, 'Phlebologist (Vein Specialist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (411, 'General', 410, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (412, 'Physical Therapist (PT)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (413, 'General', 412, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (414, 'Cardiopulmonary', 412, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (415, 'Ergonomics', 412, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (416, 'Clinical Electrophysiology', 412, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (417, 'Geriatrics', 412, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (418, 'Hand', 412, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (419, 'Human Factors', 412, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (420, 'Neurology', 412, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (421, 'Pediatrics', 412, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (422, 'Sports', 412, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (423, 'Orthopedic', 412, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (424, 'Pelvic Pain/Dysfunction', 412, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (425, 'Physical Therapy Assistant', 412, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (426, 'Physician Assistant (PA)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (427, 'General', 426, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (428, 'Medical', 426, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (429, 'Surgical', 426, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (430, 'Dermatology', 426, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (431, 'Plastic, Reconstructive, and Cosmetic Surgeon', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (432, 'General', 431, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (433, 'Head and Neck Surgery Specialist', 431, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (434, 'Hand Surgery Specialist', 431, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (435, 'Plastic Surgery - Plastic Surgery Within the Head and Neck', 431, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (436, 'Podiatrist (Foot Specialist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (437, 'Podiatrist', 436, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (438, 'General Practice', 436, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (439, 'Public Medicine', 436, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (440, 'Primary Podiatric Medicine', 436, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (441, 'Radiology', 436, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (442, 'Sports Medicine', 436, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (443, 'Foot & Ankle Surgery', 436, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (444, 'Foot Surgery', 436, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (445, 'Assistant, Podiatric', 436, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (446, 'Poetry Therapist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (447, 'General', 446, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (448, 'Preventive Medicine Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (449, 'Aerospace Medicine', 448, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (450, 'Undersea and Hyperbaric Medicine', 448, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (451, 'Preventive Medicine/Occupational Environmental Medicine', 448, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (452, 'Public Health & General Preventive Medicine', 448, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (453, 'Sports Medicine', 448, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (454, 'Medical Toxicology', 448, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (455, 'Occupational Medicine', 448, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (456, 'Preventive Medicine - Obesity Medicine', 448, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (457, 'Preventive Medicine - Clinical Informatics', 448, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (458, 'Preventive Medicine - Addiction Medicine', 448, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (459, 'Prosthetist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (460, 'General', 459, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (461, 'Psychiatrist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (462, 'Forensic Psychiatry', 461, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (463, 'Psychosomatic Medicine', 461, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (464, 'General', 461, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (465, 'Addiction Psychiatry', 461, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (466, 'Child & Adolescent Psychiatry', 461, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (467, 'Geriatric Psychiatry', 461, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (468, 'Neurologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (469, 'Diagnostic Neuroimaging', 468, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (470, 'Neuromuscular Medicine', 468, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (471, 'General', 468, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (472, 'Special Qualifications in Child Neurology', 468, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (473, 'Neurodevelopmental Disabilities', 468, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (474, 'Pain Medicine', 468, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (475, 'Vascular Neurology', 468, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (476, 'Epileptologist', 468, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (477, 'Psychoanalyst', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (478, 'General', 477, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (479, 'Psychologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (480, 'General', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (481, 'Addiction & Substance Use Disorders', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (482, 'Adult Development & Aging', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (483, 'Cognitive & Behavioral', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (484, 'Clinical', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (485, 'Counseling', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (486, 'Clinical Child & Adolescent', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (487, 'Educational', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (488, 'Exercise & Sports', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (489, 'Family', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (490, 'Forensic', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (491, 'Health', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (492, 'Health Service', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (493, 'Men & Masculinity', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (494, 'Mental Retardation & Developmental Disabilities', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (495, 'Medical (Prescribing)', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (496, 'Psychoanalysis', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (497, 'Psychotherapy', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (498, 'Group Psychotherapy', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (499, 'Rehabilitation', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (500, 'School', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (501, 'Women', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (502, 'Neuropsychologist', 479, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (503, 'Pulmonologist (Lung Specialist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (504, 'General', 503, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (505, 'Radiologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (506, 'Body Imaging', 505, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (507, 'Diagnostic Neuroimaging', 505, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (508, 'Hospice & Palliative Medicine', 505, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (509, 'Neuroradiology', 505, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (510, 'Nuclear Radiology', 505, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (511, 'Pediatric Radiology', 505, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (512, 'Radiation Oncology', 505, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (513, 'Diagnostic Radiology', 505, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (514, 'Therapeutic Radiology', 505, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (515, 'Vascular & Interventional Radiology', 505, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (516, 'Radiological Physics', 505, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (517, 'Diagnostic Ultrasound', 505, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (518, 'Breast Imaging', 505, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (519, 'Recreation Therapist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (520, 'General', 519, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (521, 'Reflexologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (522, 'General', 521, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (523, 'Dietitian', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (524, 'General', 523, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (525, 'Pediatric Nutrition', 523, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (526, 'Renal Nutrition', 523, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (527, 'Metabolic Nutrition', 523, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (528, 'Gerontological Nutrition', 523, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (529, 'Obesity and Weight Management Nutrition', 523, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (530, 'Oncology Nutrition', 523, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (531, 'Pediatric Critical Care Nutrition', 523, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (532, 'Sports Dietetics Nutrotion', 523, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (533, 'Registered Nurse (RN)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (534, 'General', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (535, 'Addiction & Substance Use Disorder', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (536, 'Administrator', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (537, 'Critical Care Medicine', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (538, 'Case Management', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (539, 'College Health', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (540, 'Community Health', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (541, 'Continuing Education/Staff Development', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (542, 'Continence Care', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (543, 'Cardiac Rehabilitation', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (544, 'Diabetes Education', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (545, 'Peritoneal Dialysis', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (546, 'Emergency', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (547, 'Enterostomal Therapy', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (548, 'Flight', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (549, 'General Practice', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (550, 'Gastroenterology', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (551, 'Gerontology', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (552, 'Home Health', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (553, 'Hemodialysis', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (554, 'Hospice', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (555, 'Infusion Therapy', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (556, 'Infection Control', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (557, 'Lactation Consultant', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (558, 'Maternal Newborn', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (559, 'Medical-Surgical', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (560, 'NMT', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (561, 'Neonatal Intensive Care', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (562, 'Neonatal, Low-Risk', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (563, 'Nephrology', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (564, 'Neuroscience', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (565, 'Nutrition Support', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (566, 'Pain Management', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (567, 'Pediatrics', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (568, 'Pediatric Oncology', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (569, 'Psych/Mental Health, Child & Adolescent', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (570, 'Psych/Mental Health', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (571, 'Psych/Mental Health, Adult', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (572, 'Perinatal', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (573, 'Ambulatory Care', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (574, 'Registered Nurse First Assistant', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (575, 'Rehabilitation', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (576, 'Reproductive Endocrinology/Fertility', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (577, 'Plastic Surgery', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (578, 'School', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (579, 'Urology', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (580, 'Wound Care', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (581, 'Womens Health Care, Ambulatory', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (582, 'Obstetric, High-Risk', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (583, 'Obstetric, Inpatient', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (584, 'Occupational Health', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (585, 'Oncology', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (586, 'Otorhinolaryngology & Head-Neck', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (587, 'Orthopedic', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (588, 'Ophthalmic', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (589, 'Ostomy Care', 533, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (590, 'Respiratory Therapist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (591, 'General', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (592, 'Critical Care', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (593, 'Emergency Care', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (594, 'Educational', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (595, 'Geriatric Care', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (596, 'General Care', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (597, 'Home Health', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (598, 'Pulmonary Diagnostics', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (599, 'Pulmonary Rehabilitation', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (600, 'Pulmonary Function Technology', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (601, 'Palliative & Hospice', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (602, 'Neonatal/Pediatrics', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (603, 'Patient Transport', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (604, 'SNF/Subacute Care', 590, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (605, 'Rehabilitation Counselor', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (606, 'General', 605, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (607, 'Assistive Technology Practitioner', 605, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (608, 'Assistive Technology Supplier', 605, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (609, 'Orientation and Mobility Training Provider', 605, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (610, 'Rheumatologist (Joints & Arthritis Specialist)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (611, 'General', 610, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (612, 'Sleep Medicine Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (613, 'General', 612, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (614, 'Speech-Language Pathologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (615, 'General', 614, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (616, 'Sports Medicine Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (617, 'General', 616, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (618, 'Anti-Aging and Regenerative Medicine', 616, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (619, 'Surgeon', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (620, 'General', 619, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (621, 'Oral & Maxillofacial Surgery', 619, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (622, 'Pediatric Surgery', 619, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (623, 'Surgical Oncology', 619, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (624, 'Surgical Critical Care', 619, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (625, 'Vascular Surgery', 619, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (626, 'Trauma Surgery', 619, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (627, 'Surgery of the Hand', 619, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (628, 'Cosmetic Surgeon', 619, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (629, 'Bariatric Surgery', 619, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (630, 'Thoracic Surgeon (Cardiothoracic Vascular Surgeon)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (631, 'General', 630, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (632, 'Transplant Hepatologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (633, 'General', 632, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (634, 'Transplant Surgeon', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (635, 'General', 634, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (636, 'Urologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (637, 'General', 636, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (638, 'Pediatric Urology', 636, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (639, 'Urology - Female Pelvic Medicine and Reconstructive Surgery', 636, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (640, 'Physiatrist (Physical Medicine & Rehabilitation)', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (641, 'General', 640, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (642, 'Hospice and Palliative Medicine', 640, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (643, 'Neuromuscular Medicine', 640, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (644, 'Spinal Cord Injury Medicine', 640, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (645, 'Pediatric Rehabilitation Medicine', 640, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (646, 'Pain Medicine', 640, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (647, 'Sports Medicine', 640, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (648, 'Physical Medicine & Rehabilitation - Brain Injury Medicine', 640, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (649, 'Social Worker', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (650, 'General', 649, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (651, 'Clinical', 649, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (652, 'School', 649, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (653, 'Psychiatrist / Neurologist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (654, 'Addiction Medicine', 653, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (655, 'Bariatric Medicine', 653, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (656, 'Hospice & Palliative Medicine', 653, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (657, 'Clinical Neurophysiology', 653, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (658, 'Sports Medicine', 653, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (659, 'Sleep Medicine', 653, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (660, 'Psychiatry & Neurology - Neurocritical Care', 653, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (661, 'Psychiatry & Neurology - Behavioral Neurology & Neuropsychiatry', 653, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (662, 'Psychiatry & Neurology - Brain Injury Medicine', 653, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (663, 'Pharmacist Clinician (PhC)/ Clinical Pharmacist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (664, 'Pharmacist Clinician (PhC)/ Clinical Pharmacy Specialist', 663, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (665, 'Pharmacotherapist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (666, 'Pharmacotherapy', 665, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (667, 'Other Healthcare Professional', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (668, 'General', 667, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (669, 'Aesthetician', 667, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (670, 'Pharmacist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (671, 'General', 670, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (672, 'Pharmacist - Critical Care', 670, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (673, 'Pharmacist - General Practice', 670, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (674, 'Pharmacist - Geriatric', 670, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (675, 'Pharmacist - Nuclear', 670, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (676, 'Pharmacist - Nutrition Support', 670, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (677, 'Pharmacist - Pediatrics', 670, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (678, 'Pharmacist - Psychiatric', 670, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (679, 'Pharmacist - Ambulatory Care', 670, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (680, 'Pharmacist - Oncology', 670, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (681, 'Pharmacy Technician', 670, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (682, 'Other Doctors', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (683, 'Specialist', 682, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (684, 'Student', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (685, 'Student', 684, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (686, 'Licensed Skin Care Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (687, 'General', 686, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (688, 'Concierge Medicine', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (689, 'General', 688, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (690, 'Skilled Nursing Facility Care', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (691, 'General', 690, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (692, 'Nutrition Counseling', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (693, 'General', 692, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (694, 'Pediatric Ophthalmology ', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (695, 'Pediatric Ophthalmology', 694, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (696, 'Behavioral Health & Social Service Providers', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (697, 'Clinical Neuropsychologist - Clinical', 696, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (698, 'Behavioral Analyst', 696, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (699, 'Assistant Behavior Analyst', 696, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (700, 'Behavior Technician', 696, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (701, 'Drama Therapist', 696, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (702, 'Dental Providers', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (703, 'Dental Hygienist', 702, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (704, 'Dental Therapist', 702, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (705, 'Advanced Practice Dental Therapist', 702, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (706, 'Oral Medicinist', 702, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (707, 'Dental Assistant', 702, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (708, 'Dental Laboratory Technician', 702, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (709, 'Pain Orofacial', 702, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (710, 'Emergency Medical Service Providers', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (711, 'Personal Emergency Response Attendant', 710, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (712, 'Emergency Medical Technician, Paramedic', 710, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (713, 'Emergency Medical Technician, Intermediate', 710, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (714, 'Emergency Medical Technician, Basic', 710, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (715, 'Eye and Vision Services Providers', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (716, 'Technician/Technologist', 715, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (717, 'Technician/Technologist - Contact Lens', 715, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (718, 'Technician/Technologist - Contact Lens Fitter', 715, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (719, 'Technician/Technologist - Ophthalmic', 715, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (720, 'Technician/Technologist - Ophthalmic Assistant', 715, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (721, 'Technician/Technologist - Optometric Assistant', 715, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (722, 'Technician/Technologist - Optometric Technician', 715, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (723, 'Technician/Technologist - Ocularist', 715, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (724, 'Technician/Technologist - Optician', 715, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (725, 'Technician/Technologist - Orthoptist', 715, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (726, 'Other Service Providers', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (727, 'Military Health Care Provider', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (728, 'Military Health Care Provider - Independent Duty Corpsman', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (729, 'Military Health Care Provider - Independent Duty Medical Technicians', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (730, 'Case Manager/Care Coordinator', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (731, 'Interpreter', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (732, 'Contractor', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (733, 'Contractor - Home Modifications', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (734, 'Contractor - Vehicle Modifications', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (735, 'Driver', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (736, 'Community Health Worker', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (737, 'Legal Medicine', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (738, 'Sleep Specialist, PhD', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (739, 'Meals', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (740, 'Specialist - Graphics Designer', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (741, 'Specialist - Prosthetics Case Management', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (742, 'Specialist - Research Study', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (743, 'Specialist - Research Data Abstracter/Coder', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (744, 'Health Educator', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (745, 'Veterinarian', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (746, 'Veterinarian - Medical Research', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (747, 'Lactation Consultant, Non-RN', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (748, 'Clinical Ethicist', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (749, 'Midwife, Lay', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (750, 'Peer Specialist', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (751, 'Midwife', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (752, 'Funeral Director', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (753, 'Lodging', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (754, 'Prevention Professional', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (755, 'Health & Wellness Coach', 726, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (756, 'Group', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (757, 'Multi-Specialty', 756, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (758, 'Single Specialty', 756, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (759, 'Allopathic & Osteopathic Physicians', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (760, 'Electrodiagnostic Medicine', 759, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (761, 'Respiratory, Developmental, Rehabilitative and Restorative Service Providers', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (762, 'Mastectomy Fitter', 761, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (763, 'Pedorthist', 761, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (764, 'Clinical Exercise Physiologist', 761, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (765, 'Rehabilitation Practitioner', 761, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (766, 'Specialist/Technologist', 761, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (767, 'Specialist/Technologist - Athletic Trainer', 761, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (768, 'Specialist/Technologist - Rehabilitation, Blind', 761, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (769, 'Pulmonary Function Technologist', 761, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (770, 'Recreational Therapist Assistant', 761, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (771, 'Speech, Language and Hearing Service Providers', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (772, 'Specialist/Technologist', 771, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (773, 'Specialist/Technologist - Audiology Assistant', 771, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (774, 'Specialist/Technologist - Speech-Language Assistant', 771, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (775, 'Technologists, Technicians & Other Technical Service Providers', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (776, 'Perfusionist', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (777, 'Radiology Practitioner Assistant', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (778, 'Spec/Tech, Pathology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (779, 'Spec/Tech, Pathology - Blood Banking', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (780, 'Spec/Tech, Pathology - Chemistry', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (781, 'Spec/Tech, Pathology - Cytotechnology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (782, 'Spec/Tech, Pathology - Hematology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (783, 'Spec/Tech, Pathology - Hemapheresis Practitioner', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (784, 'Spec/Tech, Pathology - Histology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (785, 'Spec/Tech, Pathology - Immunology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (786, 'Spec/Tech, Pathology - Laboratory Management', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (787, 'Spec/Tech, Pathology - Laboratory Management, Diplomate', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (788, 'Spec/Tech, Pathology - Medical Technologist', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (789, 'Spec/Tech, Pathology - Microbiology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (790, 'Technician, Pathology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (791, 'Technician, Pathology - Histology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (792, 'Technician, Pathology - Medical Laboratory', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (793, 'Technician, Pathology - Phlebotomy', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (794, 'Technician, Cardiology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (795, 'Spec/Tech, Cardiovascular', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (796, 'Spec/Tech, Cardiovascular - Cardiovascular Invasive Specialist', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (797, 'Spec/Tech, Cardiovascular - Vascular Specialist', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (798, 'Spec/Tech, Cardiovascular - Sonography', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (799, 'Spec/Tech, Health Info', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (800, 'Spec/Tech, Health Info - Coding Specialist, Hospital Based', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (801, 'Spec/Tech, Health Info - Coding Specialist, Physician Office Based', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (802, 'Spec/Tech, Health Info - Registered Record Administrator', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (803, 'Specialist/Technologist, Other', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (804, 'Specialist/Technologist, Other - Art, Medical', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (805, 'Specialist/Technologist, Other - Biomedical Engineering', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (806, 'Specialist/Technologist, Other - Biomedical Photographer', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (807, 'Specialist/Technologist, Other - Biochemist', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (808, 'Specialist/Technologist, Other - Biostatistician', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (809, 'Specialist/Technologist, Other - Surgical Assistant', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (810, 'Specialist/Technologist, Other - EEG', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (811, 'Specialist/Technologist, Other - Electroneurodiagnostic', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (812, 'Specialist/Technologist, Other - Graphics Methods', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (813, 'Specialist/Technologist, Other - Geneticist, Medical (PhD)', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (814, 'Specialist/Technologist, Other - Illustration, Medical', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (815, 'Specialist/Technologist, Other - Nephrology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (816, 'Specialist/Technologist, Other - Surgical Technologist', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (817, 'Specialist/Technologist, Other - Orthopedic Assistant', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (818, 'Technician, Health Information', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (819, 'Technician, Health Information - Assistant Record Technician', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (820, 'Radiologic Technologist', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (821, 'Radiologic Technologist - Bone Densitometry', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (822, 'Radiologic Technologist - Cardiovascular-Interventional Technology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (823, 'Radiologic Technologist - Cardiac-Interventional Technology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (824, 'Radiologic Technologist - Computed Tomography', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (825, 'Radiologic Technologist - Radiography', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (826, 'Radiologic Technologist - Magnetic Resonance Imaging', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (827, 'Radiologic Technologist - Mammography', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (828, 'Radiologic Technologist - Nuclear Medicine Technology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (829, 'Radiologic Technologist - Quality Management', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (830, 'Radiologic Technologist - Radiation Therapy', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (831, 'Radiologic Technologist - Sonography', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (832, 'Radiologic Technologist - Vascular Sonography', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (833, 'Radiologic Technologist - Vascular-Interventional Technology', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (834, 'Technician, Other', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (835, 'Technician, Other - Biomedical Engineering', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (836, 'Technician, Other - Darkroom', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (837, 'Technician, Other - EEG', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (838, 'Technician, Other - Renal Dialysis', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (839, 'Technician, Other - Veterinary', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (840, 'Pathology - Clinical Laboratory Director, Non-physician', 775, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (841, 'Physician Assistants & Advanced Practice Nursing Providers', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (842, 'Anesthesiologist Assistant', 841, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (843, 'Transportation Services', 841, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (844, 'Nursing Service Related Providers', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (845, 'Chore Provider', 844, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (846, 'Adult Companion', 844, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (847, 'Day Training/Habilitation Specialist', 844, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (848, 'Technician', 844, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (849, 'Technician - Attendant Care Provider', 844, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (850, 'Technician - Personal Care Attendant', 844, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (851, 'Doula', 844, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (852, 'Religious Nonmedical Practitioner', 844, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (853, 'Religious Nonmedical Nursing Personnel', 844, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (854, 'Home Health Aide', 844, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (855, 'Nursing Home Administrator', 844, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (856, 'Homemaker', 844, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (857, 'Nurses Aide', 844, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (858, 'Regenerative Medicine Specialist', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (859, 'General', 858, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (860, 'Sports Medicine', 858, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (861, 'Anti-Aging and Aesthetics', 858, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (862, 'Orthopedics', 858, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (863, 'Laser Technician', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (864, 'General', 863, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (865, 'Marijuana Doctor', null, GETDATE(), GETDATE());
+GO
+INSERT INTO Specialties (Id, Name, ParentId, Created_At, Updated_At) VALUES (866, 'General', 865, GETDATE(), GETDATE());
+GO
