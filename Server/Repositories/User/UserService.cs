@@ -168,7 +168,7 @@ namespace Doctors_Forum_Server.Repositories.User
         public async Task<List<UserFindLocationResponseDTO>> FindDoctorsByAddressAndSpecialty(FindUserDTO data)
         {
             var usersFilter = this._context.Users.Include(u => u.SpecialtyDoctors)
-                            .Where(u => u.SpecialtyDoctors.Any(s => s.Status == "active"))
+                            .Where(u => u.SpecialtyDoctors.Any(s => s.Status == "accept"))
                             .Where(u => !string.IsNullOrEmpty(u.Location.StreetAddress));
             var users = data.SpecialtyId != null
                             ? usersFilter
